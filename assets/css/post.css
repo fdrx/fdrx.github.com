@@ -1,0 +1,10 @@
+h1 { 
+  background: pink;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}

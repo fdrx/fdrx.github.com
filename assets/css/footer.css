@@ -1,0 +1,8 @@
+footer {
+    width: 100%;
+    display: grid;
+    bottom: 0;
+    margin: 40px auto 0;
+    justify-items: center;
+    position: relative;
+}

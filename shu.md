@@ -1,13 +1,18 @@
 ---
 layout: default
 title: Articles Shu
+permalink: /shu/
 ---
 # Articles dans la catégorie Shu
 
 {% for post in site.categories.shu %}
   <article>
     <a href="{{ post.url | relative_url }}">
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="thumbnail">
+      {% if post.image[0] %}
+        <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
+      {% else %}
+        <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
+      {% endif %}
       <h2>{{ post.title }}</h2>
       <p>{{ post.subtitle }}</p>
       <p class="date">{{ post.date | date: "%d %B %Y" }}</p>

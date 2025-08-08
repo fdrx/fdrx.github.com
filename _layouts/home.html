@@ -8,14 +8,10 @@ layout: default
 
     <div class="left">
       <a href="{{ last.url | relative_url }}">
-        {% if last.image %}
-          {% if last.image[0] %}
-            <img src="{{ last.image[0] | relative_url }}" alt="{{ last.title }}">
+        {% if last.image[0] %}
+          <img src="{{ site.img_path }}{{ last.image[0] }}" alt="{{ last.title }}">
           {% else %}
-            <img src="{{ last.image | relative_url }}" alt="{{ last.title }}">
-          {% endif %}
-        {% else %}
-          <img src="/assets/images/default-thumbnail.webp" alt="{{ last.title }}">
+          <img src="{{ site.img_path }}{{ last.image }}" alt="{{ last.title }}">
         {% endif %}
       </a>
     </div>
@@ -35,14 +31,10 @@ layout: default
   {% for post in site.posts offset:1 limit:9 %}
     <article>
       <a href="{{ post.url | relative_url }}">
-        {% if post.image %}
-          {% if post.image[0] %}
-            <img src="{{ post.image[0] | relative_url }}" alt="{{ post.title }}" class="thumbnail">
-          {% else %}
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="thumbnail">
-          {% endif %}
+        {% if post.image[0] %}
+          <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
         {% else %}
-          <img src="/assets/images/default-thumbnail.webp" alt="{{ post.title }}" class="thumbnail">
+          <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
         {% endif %}
         <h2>{{ post.title }}</h2>
         <p>{{ post.subtitle }}</p>

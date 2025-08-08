@@ -7,7 +7,7 @@ tags: [puerh, sheng, jianshen]
 ---
 Aromatic dry leaves, they smell leather and brioche, you‘d like to eat a piece.
 
-![{{ page.title }}]({{ site.img_path }}{{ page.image[0] }})
+![{{ page.title }}]({{ site.img_path }}{{ page.image }})
 
 0/ The wet leaves smell red currant jelly, leather and mint.
 The first cup has a spearmint top taste, then comes some hay or grass.. fast huigan, sweet and minty flavours in the mouth but no much cooling effects.

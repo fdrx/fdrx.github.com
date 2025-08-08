@@ -9,5 +9,8 @@ Like drinking puerh with sugar for the first 3 brews
 Velvet puerh, you can brew it too much, it remains good
 penetrating relaxing Qi
 Makes you keep the mouth closed
+Taidi teas can produce the same effects but with agressivity, here it's pure and rounded
 
-![{{ page.title }}]({{ site.img_path }}{{ page.image[0] }})
+dies pretty fast though (à verifier)
+
+![{{ page.title }}]({{ site.img_path }}{{ page.image }})

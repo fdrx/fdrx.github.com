@@ -1,11 +1,13 @@
 ---
 title: Jianshen Xigui 2012
-subtitle: 
+subtitle: 2012年 临沧市茶科所 昔归甲级小沱茶
 date: 2017-09-27
-image: /assets/images/posts/2017-09-27-jianshen-xigui-12/1.webp
+image: 2017-09-27-jianshen-xigui-12/1.webp
 tags: [puerh, sheng, jianshen]
 ---
 Aromatic dry leaves, they smell leather and brioche, you‘d like to eat a piece.
+
+![{{ page.title }}]({{ site.img_path }}{{ page.image[0] }})
 
 0/ The wet leaves smell red currant jelly, leather and mint.
 The first cup has a spearmint top taste, then comes some hay or grass.. fast huigan, sweet and minty flavours in the mouth but no much cooling effects.

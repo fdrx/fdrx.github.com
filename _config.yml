@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fdrx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fdrx
 github_username:  fdrx
+img_path: "/assets/images/posts/"
 
 # Build settings
 theme: null

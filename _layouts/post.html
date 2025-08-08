@@ -2,19 +2,27 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
-<article class="post">
-  <header>
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.subtitle }}</h2>
-    <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-    {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-image">
-    {% endif %}
-  </header>
-  <div class="content">
-    {{ content }}
-  </div>
-  <footer>
-    <p>Tags: {{ page.tags | join: ", " }}</p>
-  </footer>
-</article>
+
+<div class="wrapper">
+  <article class="post">
+
+    <!-- HEADER -->
+    <header class="post">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.subtitle }}</h2>
+      <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <!-- TAGS -->
+    <div>
+      <p><u>Tags</u>: <em>{{ page.tags | join: ", " }}</em></p>
+    </div>
+
+  </article>
+
+</div>

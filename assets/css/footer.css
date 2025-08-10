@@ -2,7 +2,12 @@ footer {
     width: 100%;
     display: grid;
     bottom: 0;
-    margin: 40px auto 0;
+    margin: 40px auto 20px;
     justify-items: center;
     position: relative;
+}
+
+footer p {
+    line-height: 16px;
+    margin: 0 0 16px;
 }

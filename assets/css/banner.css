@@ -1,9 +1,10 @@
-header {
-
+.banner {
+    margin: 20px 0;
+    font: var(--font-h2);
+    font-weight: 500;
+    line-height: 38px;
 }
 
-header h2 {
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 32px;
-    line-height: 38px;
+.banner a {
+    color: #242424;
 }

@@ -13,21 +13,15 @@ header {
 
 header.post h1 {
   margin-bottom: -0.27em;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 42px;
-  font-weight: 700;
-  font-style: normal;
+  font: var(--font-h1);
   line-height: 52px;
   color: #242424;
   border: none;
 }
 
-header.post h2 {
+header.post h3 {
   margin-bottom: 24px;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  font-style: normal;
+  font: var(--font-h3);
   line-height: 28px;
   color: #6B6B6B;
 }
@@ -38,8 +32,7 @@ header p.date {
 
 .content {
   width: 100%;
-  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font: var(--font-content);
   line-height: 32px;
 }
 
@@ -47,4 +40,8 @@ header p.date {
   max-width: 680px;
   margin-top: 2.14em;
   line-height: 32px;
+}
+
+.content img {
+  max-width: 680px;
 }

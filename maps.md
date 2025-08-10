@@ -9,9 +9,9 @@ title: Maps
   <div class="left">
     <a href="{{ last.url | relative_url }}">
       {% if last.image and last.image[0] %}
-        <img src="{{ site.img_path }}{{ last.image[0] }}" alt="{{ last.title }}">
+        <img src="{{ site.map_path }}{{ last.image[0] }}" alt="{{ last.title }}">
       {% else %}
-        <img src="{{ site.img_path }}placeholder.jpg" alt="{{ last.title }}">
+        <img src="{{ site.map_path }}placeholder.jpg" alt="{{ last.title }}">
       {% endif %}
     </a>
   </div>
@@ -30,9 +30,9 @@ title: Maps
     <article>
       <a href="{{ map.url | relative_url }}">
         {% if map.image and map.image[0] %}
-          <img src="{{ site.img_path }}{{ map.image[0] }}" alt="{{ map.title }}" class="thumbnail">
+          <img src="{{ site.map_path }}{{ map.image[0] }}" alt="{{ map.title }}" class="thumbnail">
         {% else %}
-          <img src="{{ site.img_path }}placeholder.jpg" alt="{{ map.title }}" class="thumbnail">
+          <img src="{{ site.map_path }}placeholder.jpg" alt="{{ map.title }}" class="thumbnail">
         {% endif %}
         <h2>{{ map.title }}</h2>
         <p>{{ map.subtitle }}</p>

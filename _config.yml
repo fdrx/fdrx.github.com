@@ -23,8 +23,8 @@ plugins:
 defaults:
   -
     scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: post
-      categories: sheng
+      category: sheng

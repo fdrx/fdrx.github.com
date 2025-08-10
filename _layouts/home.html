@@ -10,7 +10,7 @@ layout: default
       <a href="{{ last.url | relative_url }}">
         {% if last.image[0] %}
           <img src="{{ site.img_path }}{{ last.image[0] }}" alt="{{ last.title }}">
-          {% else %}
+          {% elsif last.image %}
           <img src="{{ site.img_path }}{{ last.image }}" alt="{{ last.title }}">
         {% endif %}
       </a>
@@ -33,7 +33,7 @@ layout: default
       <a href="{{ post.url | relative_url }}">
         {% if post.image[0] %}
           <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
-        {% else %}
+        {% elsif post.image %}
           <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
         {% endif %}
         <h2>{{ post.title }}</h2>

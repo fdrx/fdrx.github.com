@@ -1,11 +1,12 @@
 ---
+layout: default
 title: Baoshan (保山)
 subtitle: 
-date: 2012-12-20
+date: 2012-12-21
 image:
   - lincang/1.webp
   - lincang/2.webp
-tags: [tea maps, baoshan]
+tags: [maps, baoshan]
 ---
 > Baoshan counties: <http://bit.ly/1aEUbyr>\
 > Baoshan (1): <http://bit.ly/1ckfGks>

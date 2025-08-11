@@ -1,0 +1,52 @@
+.disclaimer {
+    padding: 4px 8px;
+    margin: 20px 0;
+    background-color: var(--fdrx-red);
+    text-align: justify;
+}
+
+.disclaimer,
+.disclaimer a {
+    font-size: 14px;
+    color: var(--fdrx-white);
+}
+
+.disclaimer a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.main-container {
+  position: relative;
+  height: 450px;
+}
+
+.main-bg img {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center 85%;
+  flex-shrink: 0;
+  filter: brightness(70%);
+}
+
+.main-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  color: var(--fdrx-white);
+}
+
+.main-text a h2 {
+  font: var(--font-h2);
+  line-height: 38px;
+  color: var(--fdrx-white);
+}
+
+
+.main-text a p {
+  font: var(--font-h4);
+  line-height: 24px;
+  color: var(--fdrx-white);
+}

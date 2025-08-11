@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Pu’er / Simao (普洱 / 思茅)
 subtitle: 
 date: 2012-12-19
@@ -12,7 +13,7 @@ image:
   - simao/7.webp
   - simao/8.webp
   - simao/9.webp
-tags: [tea maps, simao, puer]
+tags: [maps, simao, puer]
 ---
 > Simao counties: <http://bit.ly/1doyh3f>\
 > Wuliang & Ailao mountains: <http://bit.ly/UajQED> (puerh.fr)\

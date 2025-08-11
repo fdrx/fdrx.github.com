@@ -9,3 +9,8 @@ permalink: /about/
     Living in the Meca of coffee i've slept in the coffee bed for years, and I'm reviting my puerh beengs.
 </p>
 
+<p>
+    This site was made using opendsource tools: Github Pages, Jekyll and Staticman.
+    The design mimics Medium (sorry Medium).
+</p>
+

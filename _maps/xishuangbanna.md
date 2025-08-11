@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Xishuangbanna (西双版纳)
 subtitle: 
-date: 2012-12-19
+date: 2012-12-18
 image:
   - xishuangbanna/1.webp
   - xishuangbanna/2.webp
@@ -11,7 +12,7 @@ image:
   - xishuangbanna/6.webp
   - xishuangbanna/7.webp
   - xishuangbanna/8.webp
-tags: [tea maps, xishuangbanna]
+tags: [maps, xishuangbanna]
 ---
 > Xishuangbanna counties: <http://bit.ly/1cmOu4t>\
 > Xishuangbanna (1): <http://bit.ly/1kKAlHf> (original map [here](http://www.puercn.com/puerchanews/news/17321.html))\

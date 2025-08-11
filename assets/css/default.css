@@ -15,12 +15,13 @@
     --fdrx-yellow: #ffcb5a;
     --fdrx-sucess: #4dbc70;
 
-    --font-family-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-1: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-2: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
   
     --font-h1: 700 42px / normal var(--font-family-1);
     --font-h2: 700 32px / normal var(--font-family-1);
     --font-h3: 700 22px / normal var(--font-family-1);
+    --font-h4: 400 18px / normal var(--font-family-1);
     --font-content: 400 20px / normal var(--font-family-2);
     --font-link: 400 20px / normal var(--font-family-2);
 

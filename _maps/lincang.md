@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Lincang (临沧)
 subtitle: 
 date: 2012-12-20
@@ -7,7 +8,7 @@ image:
   - lincang/2.webp
   - lincang/3.webp
   - lincang/4.webp
-tags: [tea maps, lincang]
+tags: [maps, lincang]
 ---
 > ng counties: <http://bit.ly/LbtEPZ>\
 > Lincang (1): <http://bit.ly/LHafa0> (original map [here](http://www.puercn.com/puerchazs/peczs/23826.html))\

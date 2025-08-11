@@ -38,7 +38,6 @@ body {
   font-family: var(--font-family-1);
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
   background: var(--fdrx-white);
   color: #333;
   display: flex;
@@ -80,4 +79,24 @@ img.thumbnail {
   img.thumbnail {
     max-height: 200px;
   }
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 20px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .links {
+        grid-template-columns: 1fr;
+    }
+}
+
+.links li {
+    text-align: left;
 }

@@ -1,6 +1,5 @@
 ---
-layout: default
-title: About
+layout: post
 permalink: /about/
 ---
 
@@ -14,6 +13,6 @@ permalink: /about/
 
 <p>
     This site was made using opendsource tools: Github Pages, Jekyll and Staticman.
-    The design mimics Medium (sorry Medium).
+    The design mimics Medium (sorry Medium!)
 </p>
 

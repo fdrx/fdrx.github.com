@@ -5,9 +5,9 @@ date: 2025-07-31
 image: 2025-07-31-hsh-bohetang-14/1.webp
 tags: [puerh, sheng, huishenghao]
 ---
-Like drinking puerh with sugar for the first 3 brews
-Velvet puerh, you can brew it too much, it remains good
-penetrating relaxing Qi
+Like drinking puerh with sugar for the first 3 brews.
+Velvet puerh, you can brew it too much, it will remain good.
+Penetrating relaxing Qi
 Makes you keep the mouth closed
 Taidi teas can produce the same effects but with agressivity, here it's pure and rounded
 

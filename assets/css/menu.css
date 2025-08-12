@@ -33,7 +33,7 @@
 .main-nav a.active {
   color: #333333;
   font-weight: bold;
-  border-bottom: 2px solid #666666;
+  /* border-bottom: 2px solid #666666; */
 }
 
 /* Responsive design */

@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Lincang (临沧)
-subtitle: 
+layout: map
+title: Lincang
+subtitle: 临沧
 date: 2012-12-20
 image:
   - lincang/1.webp
@@ -10,7 +10,7 @@ image:
   - lincang/4.webp
 tags: [maps, lincang]
 ---
-> ng counties: <http://bit.ly/LbtEPZ>\
+> Lincang counties: <http://bit.ly/LbtEPZ>\
 > Lincang (1): <http://bit.ly/LHafa0> (original map [here](http://www.puercn.com/puerchazs/peczs/23826.html))\
 > Mengku: <http://bit.ly/Wqpoz9> (bannablog)\
 > Yongde: <http://bit.ly/QTRktH> (bannablog)

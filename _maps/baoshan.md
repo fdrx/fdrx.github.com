@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Baoshan (保山)
-subtitle: 
+layout: map
+title: Baoshan
+subtitle: 保山
 date: 2012-12-21
 image:
   - lincang/1.webp

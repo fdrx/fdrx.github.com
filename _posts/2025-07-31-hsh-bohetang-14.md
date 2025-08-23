@@ -1,6 +1,16 @@
 ---
 title: HuiShengHao Bohetang 2014
 subtitle: 2014会盛号天赋正春薄荷塘
+brand: HuiShengHao
+brand_zh: 会盛号
+product: Bohetang
+product_zh: 薄荷塘
+year: 2014
+regions: [Xishuangbanna]
+counties: [Mansa]
+areas: [Yiwu]
+subareas: [Wangong]
+villages: [Bohetang]
 date: 2025-07-31
 image: 2025-07-31-hsh-bohetang-14/1.webp
 tags: [puerh, sheng, huishenghao]

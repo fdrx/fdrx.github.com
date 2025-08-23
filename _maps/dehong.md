@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Dehong (德宏)
-subtitle: 
+layout: map
+title: Dehong
+subtitle: 德宏
 date: 2012-12-22
 ---

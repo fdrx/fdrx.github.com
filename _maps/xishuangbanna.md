@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Xishuangbanna (西双版纳)
-subtitle: 
+layout: map
+title: Xishuangbanna
+subtitle: 西双版纳
 date: 2012-12-18
 image:
   - xishuangbanna/1.webp

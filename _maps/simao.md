@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Pu’er / Simao (普洱 / 思茅)
-subtitle: 
+layout: map
+title: Pu’er / Simao
+subtitle: 普洱 / 思茅
 date: 2012-12-19
 image:
   - simao/1.webp

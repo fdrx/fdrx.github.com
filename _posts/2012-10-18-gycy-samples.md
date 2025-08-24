@@ -14,7 +14,7 @@ areas: []
 subareas: []
 villages: []
 image: 
-tags: [puerh, sheng, xzh]
+tags: [puerh, sheng, guangya]
 ---
 Another expensive one that was full of chocolate when i sampled it... (it was also half the price) : QiXing 2011
 the first review ever of any GuangYa

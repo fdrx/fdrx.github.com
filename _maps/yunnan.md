@@ -4,8 +4,8 @@ title: Yunnan (云南)
 subtitle: 
 date: 2012-11-19
 image:
-  - yunnan/1.webp
-  - yunnan/2.webp
+  - yunnan/china.webp
+  - yunnan/prefectures.webp
 tags: [maps, yunnan]
 ---
 Yunnan (prefectures): <http://bit.ly/1gGczHY>\

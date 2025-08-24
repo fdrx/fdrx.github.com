@@ -1,6 +1,8 @@
 ---
 title: HuiShengHao Bohetang 2014
 subtitle: 2014会盛号天赋正春薄荷塘
+date: 2025-07-31
+category: sheng
 brand: HuiShengHao
 brand_zh: 会盛号
 product: Bohetang
@@ -11,7 +13,6 @@ counties: [Mansa]
 areas: [Yiwu]
 subareas: [Wangong]
 villages: [Bohetang]
-date: 2025-07-31
 image: 2025-07-31-hsh-bohetang-14/1.webp
 tags: [puerh, sheng, huishenghao]
 ---

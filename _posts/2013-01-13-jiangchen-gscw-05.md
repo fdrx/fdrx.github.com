@@ -1,6 +1,8 @@
 ---
 title: Jiangchen GushuChawang 2005
 subtitle: 
+date: 2013-01-13
+category: sheng
 brand: 
 brand_zh: 
 product: 
@@ -11,7 +13,6 @@ counties: []
 areas: []
 subareas: []
 villages: []
-date: 2013-01-13
 tags: [puerh, sheng, jiangchen]
 ---
 I finished my sample of 2005 Jiang Cheng "gu shu cha wang" from houde and it was interesting. The tea was not very clean: i removed the stems, a few leaves, and even some earth. After a good airing period, the leaves had a very realistic and attracting walnut aroma. I brewed the last ~10g in a porous qing shui ni pot : i thought it could help with the wild/off flavors I had when I tried the sample a few weeks ago.

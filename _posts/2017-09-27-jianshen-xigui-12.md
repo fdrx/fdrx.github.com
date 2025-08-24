@@ -1,6 +1,8 @@
 ---
 title: Jianshen Xigui 2012
 subtitle: 2012年 临沧市茶科所 昔归甲级小沱茶
+date: 2017-09-27
+category: sheng
 brand: Jianshen
 brand_zh: 健身
 product: Xigui Tuo
@@ -11,7 +13,6 @@ counties: [Linxiang]
 areas: [Bangdong]
 subareas: []
 villages: [Xigui]
-date: 2017-09-27
 image: 2017-09-27-jianshen-xigui-12/1.webp
 tags: [puerh, sheng, jianshen]
 ---

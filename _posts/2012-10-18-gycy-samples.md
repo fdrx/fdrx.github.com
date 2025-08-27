@@ -2,7 +2,7 @@
 title: Guangyachaye 2011 samples
 subtitle: 
 date: 2012-10-18
-category: sheng
+shape: sample
 brand: Guangyachaye
 brand_zh: 
 product: samples

@@ -81,6 +81,17 @@ img.thumbnail {
   }
 }
 
+img.thumb {
+  max-width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+img.thumb:hover {
+  transform: scale(1.05);
+}
+
 .links-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour les sections */

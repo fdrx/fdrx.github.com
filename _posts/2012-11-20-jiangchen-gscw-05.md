@@ -2,7 +2,7 @@
 title: Jiangchen GushuChawang 2005
 subtitle: 
 date: 2012-11-20
-category: sheng
+shape: sample
 brand: 
 brand_zh: 
 product: 

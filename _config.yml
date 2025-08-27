@@ -9,7 +9,7 @@ url: "https://fdrx.github.io/" # the base hostname & protocol for your site, e.g
 twitter_username: fdrx
 github_username:  fdrx
 img_path: "/assets/images/posts/"
-map_path: "/assets/images/maps/"
+maps_path: "/assets/images/maps/"
 collections:
   maps:
     output: true
@@ -28,3 +28,4 @@ defaults:
     values:
       layout: post
       category: sheng
+      shape: beeng

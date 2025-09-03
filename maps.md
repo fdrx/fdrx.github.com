@@ -1,5 +1,5 @@
 ---
 layout: maps
-title: Puerh Tea Maps and Areas
+title: Puerh maps and lists of areas
 permalink: /maps/
 ---

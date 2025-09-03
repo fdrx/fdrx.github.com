@@ -101,7 +101,7 @@ section article:hover {
 
 section article a {
   text-decoration: none;
-  display: block;
+  /* display: block; */
 }
 
 section article h2 {

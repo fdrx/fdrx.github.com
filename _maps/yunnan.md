@@ -20,7 +20,7 @@ tags: [maps, yunnan]
 
   <article>
     <h3>Yunnan cities </h3>
-    <a href="{{ site.maps_path }}yunnan/cities.webp" data-lity>
+    <a href="https://www.cielyunnan.uk/maps-of-yunnan/" data-lity>
       <img src="{{ site.maps_path }}yunnan/cities.webp" alt="Yunnan Cities" class="thumb" />
     </a>
   </article>
@@ -180,16 +180,16 @@ tags: [maps, yunnan]
   </article>
 
   <article>
-    <h3>Dehong counties</h3>
-    <a href="{{ site.maps_path }}dehong/counties.webp" data-lity>
-      <img src="{{ site.maps_path }}dehong/counties.webp" alt="Dehong counties" class="thumb" />
+    <h3>Dali counties</h3>
+    <a href="{{ site.maps_path }}dali/counties.webp" data-lity>
+      <img src="{{ site.maps_path }}dali/counties.webp" alt="Dali counties" class="thumb" />
     </a>
   </article>
 
   <article>
-    <h3>Dali counties</h3>
-    <a href="{{ site.maps_path }}dali/counties.webp" data-lity>
-      <img src="{{ site.maps_path }}dali/counties.webp" alt="Dali counties" class="thumb" />
+    <h3>Dehong counties</h3>
+    <a href="{{ site.maps_path }}dehong/counties.webp" data-lity>
+      <img src="{{ site.maps_path }}dehong/counties.webp" alt="Dehong counties" class="thumb" />
     </a>
   </article>
 

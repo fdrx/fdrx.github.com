@@ -37,11 +37,11 @@ layout: default
   {% for map in site.maps offset:1 limit:9 %}
     <article>
       <a href="{{ map.url | relative_url }}">
-        {% if map.image and map.image[0] %}
+        <!-- {% if map.image and map.image[0] %}
           <img src="{{ site.maps_path }}{{ map.image[0] }}" alt="{{ map.title }}" class="thumbnail2">
         {% else %}
           <img src="{{ site.maps_path }}placeholder.jpg" alt="{{ map.title }}" class="thumbnail2">
-        {% endif %}
+        {% endif %} -->
         <h2>{{ map.title }}</h2>
         <p>{{ map.subtitle }}</p>
         <p class="date">{{ map.date | date: "%d %B %Y" }}</p>

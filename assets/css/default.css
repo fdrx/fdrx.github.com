@@ -23,6 +23,7 @@
     --font-h3: 700 22px / normal var(--font-family-1);
     --font-h4: 400 18px / normal var(--font-family-1);
     --font-content: 400 20px / normal var(--font-family-2);
+    --font-list: 400 18px / normal var(--font-family-2);
     --font-link: 400 20px / normal var(--font-family-2);
 
 }
@@ -52,6 +53,26 @@ main {
 h1 {
   color: #2c3e50;
   border-bottom: 2px solid var(--fdrx-blue);
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+.red { 
+  color: var(--fdrx-red-dark);
 }
 
 a {

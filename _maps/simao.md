@@ -16,6 +16,7 @@ image:
 tags: [maps, simao, puer]
 ---
 > Simao counties: <http://bit.ly/1doyh3f>\
+> Simao counties: <a href="{{ site.maps_path }}simao/counties.webp" data-lity>Click Here</a>\
 > Wuliang & Ailao mountains: <http://bit.ly/UajQED> (puerh.fr)\
 > Simao (1): <http://bit.ly/1eR0zC0> (original map [here](http://www.puercn.com/puerchazs/peczs/23784.html))\
 > Simao (2): <http://bit.ly/1eGZZIN> (original map [here](http://www.puercn.com/puerchanews/hyxw/16698.html))\
@@ -25,26 +26,23 @@ tags: [maps, simao, puer]
 > Mojiang county: <http://bit.ly/1l5FBlq>\
 > Lancang county: <http://bit.ly/1cmNLAh> ([汉语的澜沧县地图](http://bit.ly/1l3CHMH))
 
-MENGLIAN COUNTY (孟连县) :
------------------------
+<h3 class="red">MENGLIAN COUNTY (孟连县) :</h3>
 
 Nayun: 那允\
 Lafu Daheishan: 腊福大黑山\
 Mangzhong: 芒中\
 Bengbaikezhunikeshan: 蚌白克珠尼克山 (?)
 
-XIMENG COUNTY (西盟县) :
----------------------
+<h3 class="red">XIMENG COUNTY (西盟县) :</h3>
 
 Fodianshan: 佛殿山\
 Awashan: 阿瓦山
 
-LANCANG COUNTY (澜沧县) :
-----------------------
+<h3 class="red">LANCANG COUNTY (澜沧县) :</h3>
 
 > [map here](http://bit.ly/1cmNLAh) (([汉语的澜沧县地图](http://bit.ly/1l3CHMH)))
 
-JINGMAISHAN (景迈山) : (Huimin township 惠民乡)\
+<b>JINGMAISHAN (景迈山) :</b> (Huimin township 惠民乡)\
 Jingmai: 景迈\
 Jingmai Dapingzhang: 景迈大平掌\
 Mangjing: 芒景\
@@ -52,19 +50,19 @@ Mengben: 勐本\
 Wengji: 翁基\
 Manghong: 芒洪
 
-Dongkahe: 东卡河 (Donglang township 东朗乡)\
+<b>Dongkahe 东卡河:</b> (Donglang township 东朗乡)\
 Mizhui: 蜜追 (Donglang township 东朗乡)
 
-Mujiangzhai: 木匠寨 (Qianliu township 谦六乡)
+<b>Mujiangzhai 木匠寨</b> (Qianliu township 谦六乡)
 
-Bangnai: 邦奈 (Fubang township 富邦乡)\
+<b>Bangnai 邦奈</b> (Fubang township 富邦乡)\
 Fubang: 富邦 (Fubang township 富邦乡)\
 Kalang: 佧朗 (Fubang township 富邦乡)
 
 Nankongzhai: 楠控寨 (Donghe township 东河乡)\
 Daliangzizhai: 大梁子寨 (Donghe township 东河乡)
 
-BANGWAISHAN (邦崴山) : (Fudong township 富东乡)\
+<b>BANGWAISHAN (邦崴山) :</b> (Fudong township 富东乡)\
 Bangwai (Bangwei): 邦崴 / 帮崴 / 邦威\
 Guoduxing gushu: 过渡型古树\
 Xiaoba: 小坝\
@@ -72,17 +70,15 @@ Fudong: 富东\
 Wendong: 文东\
 Mangnuo: 芒糯
 
-PASAI: 帕赛 (Wendong township 文东乡)\
+<b>PASAI: 帕赛</b> (Wendong township 文东乡)\
 Shuitang: 水塘
 
-SIMAO DISTRICT (思茅区) :
-----------------------
+<h3 class="red">SIMAO DISTRICT (思茅区) :</h3>
 
 Yingpanshan: 营盘山\
 Pojiao: 坡脚
 
-JIANGCHENG COUNTY (江城县) :
--------------------------
+<h3 class="red">JIANGCHENG COUNTY (江城县) :</h3>
 
 GUOQING (国庆):\
 Laojie: 络捷\
@@ -96,8 +92,7 @@ Niuluohe: 牛洛河 ?
 
 Mingzishan: 明子山 ?
 
-NING'ER COUNTY (宁洱县) :
-----------------------
+<h3 class="red">NING'ER COUNTY (宁洱县) :</h3>
 
 KUNLUSHAN (困鹿山):\
 Kuanhong: 宽宏\
@@ -108,8 +103,7 @@ BANSHAN (板山)
 
 XINZHAISHAN (新寨山)
 
-JINGGU COUNTY (景谷县) :
----------------------
+<h3 class="red">JINGGU COUNTY (景谷县) :</h3>
 
 > [map here](http://bit.ly/1rs6kwe) ([汉语的景谷县地图](http://bit.ly/1rVMv1v))
 
@@ -189,8 +183,7 @@ Liguoshu: 梨果树 (Gonghe village 共和村)
 
 MENGZHU DASHAN (勐主大山) (Bi'an township 碧安乡)
 
-MOJIANG COUNTY (墨江县) :
-----------------------
+<h3 class="red">MOJIANG COUNTY (墨江县) :</h3>
 
 > [map here](http://bit.ly/W5xteO)
 
@@ -232,8 +225,7 @@ Lianzhu: 联珠\
 Laopeng: 老彭\
 Mani: 骂尼
 
-ZHENYUAN COUNTY (镇沅县) :
------------------------
+<h3 class="red">ZHENYUAN COUNTY (镇沅县) :</h3>
 
 > [map here](http://bit.ly/1rqdodi) ([汉语的镇沅县地图](http://bit.ly/T372nO))
 
@@ -283,8 +275,7 @@ Madeng: 马邓
 
 QIANJIAZHAI: 千家寨 (Heping village 和平村)
 
-JINGDONG COUNTY (景东县) :
------------------------
+<h3 class="red">JINGDONG COUNTY (景东县) :</h3>
 
 > [map here](http://bit.ly/T36T3R) ([汉语的景东县地图](http://bit.ly/T36Wg8))
 

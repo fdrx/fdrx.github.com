@@ -15,19 +15,18 @@ tags: [maps, lincang]
 > Mengku: <http://bit.ly/Wqpoz9> (bannablog)\
 > Yongde: <http://bit.ly/QTRktH> (bannablog)
 
-SHUANGJIANG (双江县) :
--------------------
+<h3 class="red">SHUANGJIANG (双江县) :</h3>
 
-MENGKU (勐库镇) :
+<h4>MENGKU (勐库镇) :</h4>
 
-BINGDAO (冰岛) :\
+<b>BINGDAO (冰岛) :</b>\
 Bingdao: 冰岛\
 Nanpo: 南迫\
 Bawai: 坝歪\
 Dijie: 地界\
 Nuowu: 糯伍
 
-XIBANSHAN (西半山) :\
+<b>XIBANSHAN (西半山) :</b>\
 Gongnong: 公弄\
 Xiaohusai: 小户赛\
 Zhonghusai/Doufuzhai:中户赛/豆腐寨\
@@ -47,7 +46,7 @@ Mangbo: 忙波\
 Daxueshan: 大雪山\
 Huilongzhai: 回笼寨
 
-DONGBANSHAN (东半山) :\
+<b>DONGBANSHAN (东半山) :</b>\
 Haigong: 亥公\
 Donglong: 东弄\
 Nasai: 那赛\
@@ -65,33 +64,32 @@ Zhengqitang: 正气塘\
 Liangzizhai: 梁子寨\
 Bangmu: 邦木
 
-SHAHE (沙河乡):\
+<b>SHAHE (沙河乡):</b>\
 Bangxie: 帮协\
 Xiaomenge: 小勐俄\
 Jiulong: 旧笼\
 Buxilian: 布洗脸\
 Yingpan: 营盘
 
-DAWEN (大文乡):\
+<b>DAWEN (大文乡):</b>\
 Daliangzi: 大梁子
 
-MANGNUO (忙糯乡):\
+<b>MANGNUO (忙糯乡):</b>\
 Mangnuoshan: 忙糯山\
 Huangcaoling: 黄草岭 / 黄草林\
 Dabide: 大必地\
 Gungang: 滚岗
 
-BANGBING (邦丙乡):\
+<b>BANGBING (邦丙乡):</b>\
 Bangbing: 邦丙\
 Chaqing: 岔箐\
 Dapingzhang: 大平掌
 
-LINXIANG DISTRICT (临翔区) :
--------------------------
+<h3 class="red">LINXIANG DISTRICT (临翔区) :</h3>
 
-NANMEI (南美)
+<b>NANMEI (南美)</b>
 
-BANGDONG (邦东) :\
+<b>BANGDONG (邦东) :</b>\
 Xigui: 昔归\
 Manglushan: 忙麓山\
 Bangdong: 邦东\
@@ -101,22 +99,20 @@ Mangang: 曼岗\
 Bangbao: 邦包\
 Heping: 和平
 
-MATAI (马台)
+<b>MATAI (马台)</b>
 
-YUN COUNTY (云县) :
------------------
+<h3 class="red">YUN COUNTY (云县) :</h3>
 
 Yongbao: 涌宝\
 Dazhai: 大寨\
 Dazhongshan: 大中山
 
-BAIYINGSHAN (白莺山):\
+<b>BAIYINGSHAN (白莺山):</b>\
 Benshan: 本山\
 Ergazi: 二嘎子\
 Heitiaozi: 黑条子
 
-FENGQING COUNTY (凤庆县) :
------------------------
+<h3 class="red">FENGQING COUNTY (凤庆县) :</h3>
 
 Mengyou: 勐佑\
 Dasi: 大寺\
@@ -126,8 +122,7 @@ Shili: 诗礼\
 Xiangzhuqing dachashu: 香竹箐大茶树\
 Dashancha: 大山茶
 
-YONGDE COUNTY(永德县) :
---------------------
+<h3 class="red">YONGDE COUNTY(永德县) :</h3>
 
 Daxueshan: 大雪山\
 Meiziqing: 梅子箐\
@@ -145,21 +140,18 @@ Fangniuchang: 放牛场\
 Tanglishan: 棠梨山\
 Qingmeishan: 箐梅山
 
-ZHENKANG COUNTY (镇康县) :
------------------------
+<h3 class="red">ZHENKANG COUNTY (镇康县) :</h3>
 
 Maanshan: 马鞍山\
 Mangbing: 忙丙\
 Baodaoshan: 薄刀山
 
-GENGMACOUNTY (耿马县) :
---------------------
+<h3 class="red">GENGMACOUNTY (耿马县) :</h3>
 
 Sipaishan: 四排山\
 Daxueshan: 大雪山
 
-CANGYUAN COUNTY (沧源县) :
------------------------
+<h3 class="red">CANGYUAN COUNTY (沧源县) :</h3>
 
 Wengdingzhai: 翁丁寨\
 Yanshuanzhai: 岩帅寨

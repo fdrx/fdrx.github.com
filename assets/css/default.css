@@ -25,6 +25,8 @@
     --font-content: 400 20px / normal var(--font-family-2);
     --font-list: 400 18px / normal var(--font-family-2);
     --font-link: 400 20px / normal var(--font-family-2);
+    --font-legend: 600 12px / normal var(--font-family-2);
+    --font-small: 600 11px / normal var(--font-family-2);
 
 }
 
@@ -72,11 +74,12 @@ h5 {
 }
 
 .red { 
-  color: var(--fdrx-red-dark);
+  color: var(--fdrx-red);
 }
 
 a {
-  color: #4A4A4A;
+  /* color: #4A4A4A; */
+  color: var(--fdrx-red);
   text-decoration: none;
 }
 
@@ -104,6 +107,7 @@ img.thumbnail {
 
 img.thumb {
   max-width: 200px;
+  max-height: 140px;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s;

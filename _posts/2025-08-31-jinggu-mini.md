@@ -13,7 +13,9 @@ counties: []
 areas: []
 subareas: []
 villages: []
-image: 2025-08-31-jinggu-gift/1.webp
+image: 
+  - 2025-08-31-jinggu-mini/1.webp
+  - 2025-08-31-jinggu-mini/2.webp
 tags: [puerh, sheng, dayi]
 ---
 
@@ -29,3 +31,7 @@ Later brews have some xiaguan medecinal notes, it's pretty dynamic and changing,
 I thought It would not be a great moment with that tea but i eventually could not do anything but focus on the session. The little astringency is a bit borring but apart from that that's rather good.
 later brews are smoky with fading minty vinager, not great
 Good surprise! I think it's a 2011 junggu then, probably not a gift, i'll try to find the other mini beeng, and compare to it.
+
+![{{ page.title }}]({{ site.img_path }}{{ page.image[0] }})
+
+![{{ page.title }}]({{ site.img_path }}{{ page.image[1] }})

@@ -99,6 +99,10 @@ section article:hover {
   /* transform: translateY(-3px); */
 }
 
+section article img {
+
+}
+
 section article a {
   text-decoration: none;
   /* display: block; */

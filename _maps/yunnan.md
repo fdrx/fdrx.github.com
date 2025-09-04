@@ -85,13 +85,6 @@ tags: [maps, yunnan]
   </article>
 
   <article>
-    <h3>Wuliang & Ailao mountains (puerh.fr)</h3>
-    <a href="http://www.puerh.fr/dynamic/files/system/articles/84/43.jpg" data-lity>
-      <img src="{{ site.maps_path }}simao/wuliang-ailao.webp" alt="Wuliang & Ailao" class="thumb" />
-    </a>
-  </article>
-
-  <article>
     <h3>Simao (1) (original map <a href="http://www.puercn.com/puerchazs/peczs/23784.html">here</a>)</h3>
     <a href="{{ site.maps_path }}simao/simao1.webp" data-lity>
       <img src="{{ site.maps_path }}simao/simao1.webp" alt="Simao" class="thumb" />
@@ -106,21 +99,28 @@ tags: [maps, yunnan]
   </article>
 
   <article>
-    <h3>Jingdong county ([汉语的景东县地图](http://bit.ly/T36Wg8))</h3>
+    <h3>Wuliang & Ailao mountains (puerh.fr)</h3>
+    <a href="http://www.puerh.fr/dynamic/files/system/articles/84/43.jpg" data-lity>
+      <img src="{{ site.maps_path }}simao/wuliang-ailao.webp" alt="Wuliang & Ailao" class="thumb" />
+    </a>
+  </article>
+
+  <article>
+    <h3>Jingdong county</h3>
     <a href="{{ site.maps_path }}simao/jingdong.webp" data-lity>
       <img src="{{ site.maps_path }}simao/jingdong.webp" alt="Jingdong county" class="thumb" />
     </a>
   </article>
 
   <article>
-    <h3>Zhenyuan county ([汉语的镇沅县地图](http://bit.ly/T372nO))</h3>
+    <h3>Zhenyuan county</h3>
     <a href="{{ site.maps_path }}simao/zhenyuan.webp" data-lity>
       <img src="{{ site.maps_path }}simao/zhenyuan.webp" alt="Zhenyuan county" class="thumb" />
     </a>
   </article>
 
   <article>
-    <h3>Jinggu county ([汉语的景谷县地图](http://bit.ly/1rVMv1v))</h3>
+    <h3>Jinggu county</h3>
     <a href="{{ site.maps_path }}simao/jinggu.webp" data-lity>
       <img src="{{ site.maps_path }}simao/jinggu.webp" alt="Jinggu county" class="thumb" />
     </a>
@@ -131,7 +131,7 @@ tags: [maps, yunnan]
   </article>
 
   <article>
-    <h3>Lancang county ([汉语的澜沧县地图](http://bit.ly/1l3CHMH))</h3>
+    <h3>Lancang county</h3>
     <a href="{{ site.maps_path }}simao/lancang.webp" data-lity>
       <img src="{{ site.maps_path }}simao/lancang.webp" alt="Lancang county" class="thumb" />
     </a>

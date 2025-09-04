@@ -8,8 +8,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fdrx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fdrx
 github_username:  fdrx
+css_path: "/assets/css/"
+ico_path: "/assets/ico/"
 img_path: "/assets/img/posts/"
 maps_path: "/assets/img/maps/"
+thumbs_path: "/assets/img/thumbs/"
 collections:
   maps:
     output: true

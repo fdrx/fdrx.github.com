@@ -1,0 +1,54 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 8px;
+}
+
+.gallery li {
+  list-style: none;
+  text-align: center;
+}
+
+.gallery li a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.gallery li a img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.gallery li a img:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  display: block;
+  font: var(--font-legend);
+  padding: 5px 0;
+  max-width: 100%;
+}
+
+.title a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 5px;
+  }
+  .gallery li a img {
+    max-height: 150px;
+  }
+  .title {
+    font: var(--font-small);
+  }
+}

@@ -15,16 +15,16 @@ image:
   - simao/9.webp
 tags: [maps, simao, puer]
 ---
-> Simao counties: <http://bit.ly/1doyh3f>\
-> Simao counties: <a href="{{ site.maps_path }}simao/counties.webp" data-lity>Click Here</a>\
-> Wuliang & Ailao mountains: <http://bit.ly/UajQED> (puerh.fr)\
-> Simao (1): <http://bit.ly/1eR0zC0> (original map [here](http://www.puercn.com/puerchazs/peczs/23784.html))\
-> Simao (2): <http://bit.ly/1eGZZIN> (original map [here](http://www.puercn.com/puerchanews/hyxw/16698.html))\
-> Jingdong county: <http://bit.ly/T36T3R> ([汉语的景东县地图](http://bit.ly/T36Wg8))\
-> Zhenyuan county: <http://bit.ly/1rqdodi> ([汉语的镇沅县地图](http://bit.ly/T372nO))\
-> Jinggu county: <http://bit.ly/1rs6kwe> ([汉语的景谷县地图](http://bit.ly/1rVMv1v))\
-> Mojiang county: <http://bit.ly/1l5FBlq>\
-> Lancang county: <http://bit.ly/1cmNLAh> ([汉语的澜沧县地图](http://bit.ly/1l3CHMH))
+<br/>
+
+<!-- GALLERY -->
+{% include gallery.html 
+folder="simao/" 
+thumbs_folder="simao/" 
+images="counties.webp,simao1.webp,simao2.webp,wuliang-ailao.webp" 
+titles="Counties,Simao (original map <a href='http://www.puercn.com/puerchazs/peczs/23784.html'>here</a>),Simao (original map <a href='http://www.puercn.com/puerchanews/hyxw/16698.html'>here</a>),Wuliang & Ailao (<a href='http://www.puerh.fr/en/article/luo_hou_you_kucong_shanzhai_wuliang_ailao_shan.htm'>puerh.fr</a>)"
+links=",,,http://www.puerh.fr/dynamic/files/system/articles/84/43.jpg" 
+%}
 
 <h3 class="red">MENGLIAN COUNTY (孟连县) :</h3>
 
@@ -40,7 +40,13 @@ Awashan: 阿瓦山
 
 <h3 class="red">LANCANG COUNTY (澜沧县) :</h3>
 
-> [map here](http://bit.ly/1cmNLAh) (([汉语的澜沧县地图](http://bit.ly/1l3CHMH)))
+<!-- IMAGE -->
+{% include gallery.html 
+folder="simao/" 
+thumbs_folder="simao/" 
+images="lancang.webp" 
+titles="Lancang county"
+%}
 
 <b>JINGMAISHAN (景迈山) :</b> (Huimin township 惠民乡)\
 Jingmai: 景迈\
@@ -105,7 +111,15 @@ XINZHAISHAN (新寨山)
 
 <h3 class="red">JINGGU COUNTY (景谷县) :</h3>
 
-> [map here](http://bit.ly/1rs6kwe) ([汉语的景谷县地图](http://bit.ly/1rVMv1v))
+<!-- > [map here](http://bit.ly/1rs6kwe) ([汉语的景谷县地图](http://bit.ly/1rVMv1v)) -->
+
+<!-- IMAGE -->
+{% include gallery.html 
+folder="simao/" 
+thumbs_folder="simao/" 
+images="jinggu.webp" 
+titles="Jinggu county"
+%}
 
 WENSHAN (文山): (Jinggu township 景谷乡)\
 Yakou: 丫口\
@@ -185,7 +199,7 @@ MENGZHU DASHAN (勐主大山) (Bi'an township 碧安乡)
 
 <h3 class="red">MOJIANG COUNTY (墨江县) :</h3>
 
-> [map here](http://bit.ly/W5xteO)
+<!-- > [map here](http://bit.ly/W5xteO) -->
 
 MIDISHAN (迷帝山):\
 Jiepai: 界牌\
@@ -227,7 +241,15 @@ Mani: 骂尼
 
 <h3 class="red">ZHENYUAN COUNTY (镇沅县) :</h3>
 
-> [map here](http://bit.ly/1rqdodi) ([汉语的镇沅县地图](http://bit.ly/T372nO))
+<!-- > [map here](http://bit.ly/1rqdodi) ([汉语的镇沅县地图](http://bit.ly/T372nO)) -->
+
+<!-- IMAGE -->
+{% include gallery.html 
+folder="simao/" 
+thumbs_folder="simao/" 
+images="zhenyuan.webp" 
+titles="Zhenyuan county"
+%}
 
 ZHENTAI (振太乡):\
 Dasunshan: 打笋山\
@@ -277,7 +299,15 @@ QIANJIAZHAI: 千家寨 (Heping village 和平村)
 
 <h3 class="red">JINGDONG COUNTY (景东县) :</h3>
 
-> [map here](http://bit.ly/T36T3R) ([汉语的景东县地图](http://bit.ly/T36Wg8))
+<!-- > [map here](http://bit.ly/T36T3R) ([汉语的景东县地图](http://bit.ly/T36Wg8)) -->
+
+<!-- IMAGE -->
+{% include gallery.html 
+folder="simao/" 
+thumbs_folder="simao/" 
+images="jingdong.webp" 
+titles="Jingdong county"
+%}
 
 LAOCANGFUDE SHAN (老仓福德山):
 

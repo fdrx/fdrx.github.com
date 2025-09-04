@@ -1,3 +1,4 @@
+<!-- GALLERY -->
 <ul class="gallery">
   {% assign image_list = include.images | split: "," %}
   {% assign title_list = include.titles | split: "," %}
@@ -5,12 +6,13 @@
   {% assign folder = site.maps_path | append: include.folder %}
   {% assign thumbs_folder = include.thumbs_folder | default: include.folder %}
   {% assign thumbs_folder = site.thumbs_path | append: thumbs_folder %}
+
   {% if image_list.size == title_list.size and (include.links == nil or image_list.size == link_list.size) %}
     {% for i in (0..image_list.size) offset:1 %}
       {% assign index = forloop.index0 %}
       {% assign link = link_list[index] | strip %}
       <li>
-        <a href="{% if link != '' %}{{ link }}{% else %}{{ folder }}{{ image_list[index] | strip }}{% endif %}" title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
+        <a href="{% if link != '' %}{{ link }}{% else %}#{% endif %}" {% if link == '' %}class="popup-trigger" data-popup="{{ folder }}{{ image_list[index] | strip }}"{% endif %} title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
           <img src="{{ thumbs_folder }}{{ image_list[index] | strip }}" alt="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}" />
         </a>
         <div class="title">{{ title_list[index] | raw }}</div>
@@ -20,3 +22,42 @@
     <p>Error: The number of images, titles, or links does not match.</p>
   {% endif %}
 </ul>
+
+<!-- POPUP HTML -->
+<div id="image-popup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <span class="popup-close">&times;</span>
+    <img id="popup-image" src="" alt="Popup Image" />
+  </div>
+</div>
+
+<!-- POPUP JS -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const triggers = document.querySelectorAll('.popup-trigger');
+    const popup = document.getElementById('image-popup');
+    const popupImage = document.getElementById('popup-image');
+    const closeBtn = document.querySelector('.popup-close');
+
+    triggers.forEach(trigger => {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const imgSrc = this.getAttribute('data-popup');
+        popupImage.src = imgSrc;
+        popup.style.display = 'flex';
+      });
+    });
+
+    closeBtn.addEventListener('click', function() {
+      popup.style.display = 'none';
+      popupImage.src = '';
+    });
+
+    popup.addEventListener('click', function(e) {
+      if (e.target === popup) {
+        popup.style.display = 'none';
+        popupImage.src = '';
+      }
+    });
+  });
+</script>

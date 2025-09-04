@@ -8,8 +8,14 @@ image:
   - lincang/2.webp
 tags: [maps, baoshan]
 ---
-> Baoshan counties: <http://bit.ly/1aEUbyr>\
-> Baoshan (1): <http://bit.ly/1ckfGks>
+
+<!-- GALLERY -->
+{% include gallery.html 
+folder="baoshan/" 
+thumbs_folder="baoshan/" 
+images="counties.webp,1.webp" 
+titles="Counties,Baoshan"
+%}
 
 PUERH AREAS:\
 Tengchong area: 腾冲\

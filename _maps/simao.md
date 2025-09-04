@@ -15,7 +15,6 @@ image:
   - simao/9.webp
 tags: [maps, simao, puer]
 ---
-<br/>
 
 <!-- GALLERY -->
 {% include gallery.html 
@@ -40,7 +39,7 @@ Awashan: 阿瓦山
 
 <h3 class="red">LANCANG COUNTY (澜沧县) :</h3>
 
-<!-- IMAGE -->
+<!-- LANCANG MAP -->
 {% include gallery.html 
 folder="simao/" 
 thumbs_folder="simao/" 
@@ -111,9 +110,7 @@ XINZHAISHAN (新寨山)
 
 <h3 class="red">JINGGU COUNTY (景谷县) :</h3>
 
-<!-- > [map here](http://bit.ly/1rs6kwe) ([汉语的景谷县地图](http://bit.ly/1rVMv1v)) -->
-
-<!-- IMAGE -->
+<!-- JINGGU MAP -->
 {% include gallery.html 
 folder="simao/" 
 thumbs_folder="simao/" 
@@ -199,8 +196,6 @@ MENGZHU DASHAN (勐主大山) (Bi'an township 碧安乡)
 
 <h3 class="red">MOJIANG COUNTY (墨江县) :</h3>
 
-<!-- > [map here](http://bit.ly/W5xteO) -->
-
 MIDISHAN (迷帝山):\
 Jiepai: 界牌\
 Xintang: 新塘\
@@ -241,9 +236,7 @@ Mani: 骂尼
 
 <h3 class="red">ZHENYUAN COUNTY (镇沅县) :</h3>
 
-<!-- > [map here](http://bit.ly/1rqdodi) ([汉语的镇沅县地图](http://bit.ly/T372nO)) -->
-
-<!-- IMAGE -->
+<!-- ZHENYUAN MAP -->
 {% include gallery.html 
 folder="simao/" 
 thumbs_folder="simao/" 
@@ -299,9 +292,7 @@ QIANJIAZHAI: 千家寨 (Heping village 和平村)
 
 <h3 class="red">JINGDONG COUNTY (景东县) :</h3>
 
-<!-- > [map here](http://bit.ly/T36T3R) ([汉语的景东县地图](http://bit.ly/T36Wg8)) -->
-
-<!-- IMAGE -->
+<!-- JINGDONG MAP -->
 {% include gallery.html 
 folder="simao/" 
 thumbs_folder="simao/" 

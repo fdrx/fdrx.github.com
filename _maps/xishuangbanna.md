@@ -14,14 +14,15 @@ image:
   - xishuangbanna/8.webp
 tags: [maps, xishuangbanna]
 ---
-> Xishuangbanna counties: <http://bit.ly/1cmOu4t>\
-> Xishuangbanna (1): <http://bit.ly/1kKAlHf> (original map [here](http://www.puercn.com/puerchanews/news/17321.html))\
-> Xishuangbanna (2): <http://bit.ly/100szgM> (bannablog)\
-> Eastern Banna (3): <http://bit.ly/1cM35Xf> (original map [here](http://bbs.puerh.cn/redirect.php?tid=18926&goto=lastpost))\
-> Yiwu: <http://bit.ly/X5S24d> (bannablog)\
-> Bulang: <http://bit.ly/ZaxOvB> (bannablog)\
-> Bulang (part): <http://bit.ly/1eCThS6> (zhimingdu)\
-> Mengsong: <http://bit.ly/1bipX0Z> (original map [here](http://nkgsc.blog.163.com/blog/static/13206642420112163292447/))
+
+<!-- GALLERY -->
+{% include gallery.html 
+folder="xishuangbanna/" 
+thumbs_folder="xishuangbanna/" 
+images="counties.webp,banna1.webp,east_banna.webp,banna2.webp" 
+titles="Counties,Banna (original <a href='http://www.puercn.com/puerchanews/news/17321.html'>map</a>),Eastern Banna (original <a href='http://bbs.puerh.cn/redirect.php?tid=18926&goto=lastpost'>map</a>),Banna (<a href='https://bannablogtea.blogspot.com/2010/09/carte-des-montagnes-the.html'>bannablog</a>)"
+links=",,,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJX2GjbUDyNNsWkucdTEkeeQqJpHmyFfQGzl7gwproqySGTUXkvXVzfg0Zqm7odVVreBD347sxLZdDowAhentLF6t-wRnK2axnVnKVL-6QO4_Zmkymop9br2OTVLhIZRG9u0Gqvts4hFCY/s1600/bannamap.jpg" 
+%}
 
 <h3 class="red">MENGLA COUNTY (勐腊县) :</h3>
 
@@ -161,6 +162,15 @@ Manmai: 曼卖
 <h3 class="red">MENGHAI COUNTY (勐海县) :</h3>
 
 <b>BULANGSHAN (布朗山) :</b> (Bulangshan township 布朗山乡)\
+
+<!-- BULANG MAP -->
+{% include gallery.html 
+folder="xishuangbanna/" 
+thumbs_folder="xishuangbanna/" 
+images="bulang.webp" 
+titles="Bulang shan"
+%}
+
 Laobanzhang: 老班章 (Banzhang)\
 Xinbanzhang: 新班章 (Banzhang)\
 Laomane: 老曼峨 / 老曼娥 (Banzhang)\
@@ -207,8 +217,16 @@ Pasha laozhai: 帕沙老寨\
 Pasha zhongzhai: 帕沙中寨\
 Pasha xinzhai: 帕沙新寨
 
-<b>MENGSONG / HUAZHULIANGZI SHAN (勐宋 / 滑竹梁子山)</b>\
-[map here](http://bit.ly/1bipX0Z) (original map [here](http://nkgsc.blog.163.com/blog/static/13206642420112163292447/))\
+<b>MENGSONG / HUAZHULIANGZI SHAN (勐宋 / 滑竹梁子山)</b>
+
+<!-- MENGSONG MAP -->
+{% include gallery.html 
+folder="xishuangbanna/" 
+thumbs_folder="xishuangbanna/" 
+images="mengsong.webp" 
+titles="Mengsong shan (<a href='http://nkgsc.blog.163.com/blog/static/13206642420112163292447/'>original map</a>)"
+%}
+
 Naka: 那卡 / 腊卡 / 纳卡 / 娜卡\
 Da Manlu: 大曼吕 / 曼吕大山/ 曼吕山\
 Baotang jiuzhai/laozhai: 保塘旧寨 / 保塘老寨\

@@ -10,14 +10,29 @@ image:
   - lincang/4.webp
 tags: [maps, lincang]
 ---
-> Lincang counties: <http://bit.ly/LbtEPZ>\
-> Lincang (1): <http://bit.ly/LHafa0> (original map [here](http://www.puercn.com/puerchazs/peczs/23826.html))\
-> Mengku: <http://bit.ly/Wqpoz9> (bannablog)\
-> Yongde: <http://bit.ly/QTRktH> (bannablog)
+
+<!-- GALLERY -->
+{% include gallery.html 
+folder="lincang/" 
+thumbs_folder="lincang/" 
+images="counties.webp,lincang.webp" 
+titles="Counties,Lincang (original <a href='http://www.puercn.com/puerchazs/peczs/23826.html'>map</a>)"
+%}
+
+<br/>
 
 <h3 class="red">SHUANGJIANG (双江县) :</h3>
 
 <h4>MENGKU (勐库镇) :</h4>
+
+<!-- MENGKU MAP -->
+{% include gallery.html 
+folder="lincang/" 
+thumbs_folder="lincang/" 
+images="mengku.webp" 
+titles="Mengku (<a href='https://bannablogtea.blogspot.com/2012/04/mengku-tea-map.html'>bannablog</a>)"
+links="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvPA4aOHwL6-A4rs7mfOU-43LuJTiHVgqA-28cDj6fsqIRcVvcQM4ro_Dc2o3pqdbXBU9ZQ8TeR_0IDtmODD3rF-9xMOq5996Z_da3QXd_9v2RNULA7vp1huCSQFofoIIphV-3FPt3sh_f/s1600/mengku+map.png"
+%}
 
 <b>BINGDAO (冰岛) :</b>\
 Bingdao: 冰岛\
@@ -123,6 +138,15 @@ Xiangzhuqing dachashu: 香竹箐大茶树\
 Dashancha: 大山茶
 
 <h3 class="red">YONGDE COUNTY(永德县) :</h3>
+
+<!-- YONGDE MAP -->
+{% include gallery.html 
+folder="lincang/" 
+thumbs_folder="lincang/" 
+images="yongde.webp" 
+titles="Yongde (<a href='https://bannablogtea.blogspot.com/2012/04/yongde-tea-map.html'>bannablog</a>)"
+links="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6pOKQTn3ROY_JlVkiYJ_RY6CRPgbzGG2KehbEe3OGW6YnnU_WxSHOhVWt5DN467_yxoLixRf1ZdVA63eahW9NcUoXbVlaxcbjp8zPrLUEHrfXYxayaMlEF90fX6v1lYpHyqp6SYhH1oGw/s1600/yongde+map.png"
+%}
 
 Daxueshan: 大雪山\
 Meiziqing: 梅子箐\

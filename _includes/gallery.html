@@ -1,20 +1,27 @@
 <!-- GALLERY -->
-<ul class="gallery">
-  {% assign image_list = include.images | split: "," %}
+{% assign image_list = include.images | split: "," %}
+{% assign center_class = '' %}
+{% if include.center and image_list.size == 1 %}
+  {% assign center_class = 'centered' %}
+{% endif %}
+<ul class="gallery {{ center_class }}">
   {% assign title_list = include.titles | split: "," %}
   {% assign link_list = include.links | split: "," %}
   {% assign base_path = include.path | default: 'maps_path' %}
-  {% assign folder = include.folder | prepend: '/' | prepend: site[base_path] | default: site[base_path] %}
-  {% assign thumbs_folder = include.thumbs_folder | default: include.folder %}
-  {% assign thumbs_folder = thumbs_folder | prepend: '/' | prepend: site.thumbs_path | default: site.thumbs_path %}
+  {% assign folder_part = include.folder | default: '' | remove: '/' %}
+  {% assign folder = site[base_path] | append: '/' | append: folder_part | replace: '//', '/' | replace: '//', '/' | replace: '//', '/' %}
+  {% if folder_part != '' %}{% assign folder = folder | append: '/' %}{% endif %}
+  {% assign thumbs_folder_part = include.thumbs_folder | default: folder_part | remove: '/' %}
+  {% assign thumbs_folder = site.thumbs_path | append: '/' | append: thumbs_folder_part | replace: '//', '/' | replace: '//', '/' | replace: '//', '/' %}
+  {% if thumbs_folder_part != '' %}{% assign thumbs_folder = thumbs_folder | append: '/' %}{% endif %}
 
   {% if image_list.size == title_list.size and (include.links == nil or image_list.size == link_list.size) %}
     {% for i in (0..image_list.size) offset:1 %}
       {% assign index = forloop.index0 %}
       {% assign link = link_list[index] | strip %}
       <li>
-        <a href="{% if link != '' %}{{ link }}{% else %}#{% endif %}" {% if link == '' %}class="popup-trigger" data-popup="{{ folder }}/{{ image_list[index] | strip }}"{% endif %} title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
-          <img src="{{ thumbs_folder }}/{{ image_list[index] | strip }}" alt="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}" />
+        <a href="{% if link != '' %}{{ link }}{% else %}#{% endif %}" {% if link == '' %}class="popup-trigger" data-popup="{{ folder }}{{ image_list[index] | strip }}"{% endif %} title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
+          <img src="{{ thumbs_folder }}{{ image_list[index] | strip }}" alt="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}" />
         </a>
         <div class="title">{{ title_list[index] | raw }}</div>
       </li>

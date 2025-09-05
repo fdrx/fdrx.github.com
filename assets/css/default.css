@@ -27,8 +27,8 @@
     --font-content: 400 20px / normal var(--font-family-2);
     --font-list: 400 18px / normal var(--font-family-2);
     --font-link: 400 20px / normal var(--font-family-2);
-    --font-legend: 600 12px / normal var(--font-family-2);
-    --font-small: 600 11px / normal var(--font-family-2);
+    --font-legend: 600 12px / normal var(--font-family-1);
+    --font-small: 600 11px / normal var(--font-family-1);
 
 }
 
@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 40px;
+  
 }
 
 h4 {
@@ -92,9 +92,9 @@ h5 {
   color: white;
 }
 
-.bg-darker {
-  background-color: var(--fdrx-darker);
-  color: white;
+h3.red,
+h3.dark {
+  margin-top: 40px;
 }
 
 a {

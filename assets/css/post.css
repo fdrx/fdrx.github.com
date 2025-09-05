@@ -5,6 +5,12 @@
 
 article.post {
   max-width: 680px;
+  padding: 0;
+} 
+@media (max-width: 600px) {
+  article.post {
+    padding: 0 8px;
+  }
 }
 
 header {

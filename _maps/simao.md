@@ -64,7 +64,7 @@ Mizhui: 蜜追 (Donglang township 东朗乡)
 Fubang: 富邦 (Fubang township 富邦乡)\
 Kalang: 佧朗 (Fubang township 富邦乡)
 
-Nankongzhai: 楠控寨 (Donghe township 东河乡)\
+<b>Nankongzhai: 楠控寨</b> (Donghe township 东河乡)\
 Daliangzizhai: 大梁子寨 (Donghe township 东河乡)
 
 <b>BANGWAISHAN (邦崴山) :</b> (Fudong township 富东乡)\
@@ -85,7 +85,7 @@ Pojiao: 坡脚
 
 <h3 class="red">JIANGCHENG COUNTY (江城县) :</h3>
 
-GUOQING (国庆):\
+<b>GUOQING (国庆):</b>\
 Laojie: 络捷\
 Yaodeng: 么等\
 Tianfang: 田房\
@@ -93,20 +93,20 @@ Gale: 嘎勒\
 Bobie: 博别\
 Heping: 和平
 
-Niuluohe: 牛洛河 ?
+<b>Niuluohe: 牛洛河</b> ?
 
-Mingzishan: 明子山 ?
+<b>Mingzishan: 明子山</b> ?
 
 <h3 class="red">NING'ER COUNTY (宁洱县) :</h3>
 
-KUNLUSHAN (困鹿山):\
+<b>KUNLUSHAN (困鹿山):</b>\
 Kuanhong: 宽宏\
 Xisa: 西萨\
 Qiangang: 谦岗
 
-BANSHAN (板山)
+<b>BANSHAN (板山)</b>
 
-XINZHAISHAN (新寨山)
+<b>XINZHAISHAN (新寨山)</b>
 
 <h3 class="red">JINGGU COUNTY (景谷县) :</h3>
 
@@ -118,7 +118,7 @@ images="jinggu.webp"
 titles="Jinggu county"
 %}
 
-WENSHAN (文山): (Jinggu township 景谷乡)\
+<b>WENSHAN (文山)</b>: (Jinggu township 景谷乡)\
 Yakou: 丫口\
 Shanbeihou: 山背后\
 Doupojiao: 陡坡脚\
@@ -148,7 +148,7 @@ Dahuangdi: 大荒地\
 Tuanshan: 团山\
 Wenzhao: 文召
 
-YANGTA (秧塔): (Minle town 民乐镇)\
+<b>YANGTA (秧塔)</b>: (Minle town 民乐镇)\
 Taozi: 桃子\
 Minle: 民乐\
 Baixiang: 白象\
@@ -156,15 +156,15 @@ Yangta: 秧塔\
 Dacun: 大村\
 Wengkong: 翁孔
 
-BOLIN SHAN (柏林山): (Fengshan 凤山乡)\
+<b>BOLIN SHAN (柏林山)</b>: (Fengshan 凤山乡)\
 Bolin: 柏林\
 Bainishui: 白泥水
 
-LIANHELONGTANG (联合龙塘): (Zhongshan 钟山)\
+<b>LIANHELONGTANG (联合龙塘)</b>: (Zhongshan 钟山)\
 Longtang: 龙塘\
 Lianhe: 联合
 
-NANBAN HUANGCAOBA (南板黄草坝): (Fengshan township 凤山乡 / Zhengxing town 正兴镇)\
+<b>NANBAN HUANGCAOBA (南板黄草坝)</b>: (Fengshan township 凤山乡 / Zhengxing town 正兴镇)\
 Guangshan: 光山\
 Shunnan: 顺南\
 Pingtian: 平田\
@@ -176,44 +176,46 @@ Huangcaoba: 黄草坝 (Zhengxing town 正兴镇)\
 Huangcaoba Dajianshan: 黄草坝 大尖山\
 Huisa: 回萨
 
-TUANJIE (团结山): (Yongping town 永平镇)\
+<b>TUANJIE (团结山)</b>: (Yongping town 永平镇)\
 Tuanjie: 团结
 
-MOTIANSHAN (摩天山) (Zhengxing town 正兴镇)
+<b>MOTIANSHAN (摩天山)</b> (Zhengxing town 正兴镇)
 
 Mailongshan: 埋龙山 (Shuiping village 水平村)
 
-MALONGSHAN (曼竜山): (Yizhi township 益智乡)\
+<b>MALONGSHAN (曼竜山)</b>: (Yizhi township 益智乡)\
 Sujiashan: 苏家山\
 Malongshan: 曼竜山
 
-DALUSHAN (大绿山): (Yizhi township 益智乡)\
+<b>DALUSHAN (大绿山)</b>: (Yizhi township 益智乡)\
 Datian: 大田
 
 Liguoshu: 梨果树 (Gonghe village 共和村)
 
-MENGZHU DASHAN (勐主大山) (Bi'an township 碧安乡)
+<b>MENGZHU DASHAN (勐主大山)</b> (Bi'an township 碧安乡)
 
 <h3 class="red">MOJIANG COUNTY (墨江县) :</h3>
 
-MIDISHAN (迷帝山):\
+<Map Lost!>
+
+<b>MIDISHAN (迷帝山)</b>:\
 Jiepai: 界牌\
 Xintang: 新塘\
 Banbao: 班包\
 Naxian: 那宪
 
-XULISHAN (须立山):\
+<b>XULISHAN (须立山)</b>:\
 Caiyuan: 菜园\
 Banzhong: 班中\
 Bisheng: 碧胜\
 Yongxi: 勇溪
 
-JINGXINGHAOMEN SHAN (景星豪门山) :\
+<b>JINGXINGHAOMEN SHAN (景星豪门山)</b>:\
 Xinhua: 新华\
 Jingxing: 景星\
 Zhenglong: 正龙
 
-LONGBASHAN (龙坝山):\
+<b>LONGBASHAN (龙坝山)</b>:\
 Longbin: 竜宾\
 Mengli: 勐里\
 Damieduo: 大乜多\
@@ -222,13 +224,13 @@ Dadong: 打东\
 Shitou: 石头\
 Manpo: 曼婆
 
-TONGGUANSHAN (通关山):\
+<b>TONGGUANSHAN (通关山)</b>:\
 Rongping: 荣平\
 Xinwu: 新武\
 Jingba: 景坝\
 Biku: 毕库
 
-BALIUSHAN (坝溜山):\
+<b>BALIUSHAN (坝溜山)</b>:\
 Laozhu: 老朱\
 Lianzhu: 联珠\
 Laopeng: 老彭\
@@ -244,7 +246,7 @@ images="zhenyuan.webp"
 titles="Zhenyuan county"
 %}
 
-ZHENTAI (振太乡):\
+<b>ZHENTAI (振太乡)</b>:\
 Dasunshan: 打笋山\
 Shanjie: 山街\
 Taitou: 抬头\
@@ -257,7 +259,7 @@ Xiaozhai: 小寨\
 Tangfang: 塘坊\
 Shahe: 沙河
 
-MENGDA (勐大):\
+<b>MENGDA (勐大)</b>:\
 Wenbo: 文卜\
 Kanpenqing: 砍盆箐 (Wenbo)\
 Damaidi: 大麦地\
@@ -266,12 +268,12 @@ Wenkuang: 文况\
 Dajing: 大井\
 Wenmeng: 文蒙
 
-LAOWUSHAN (老乌山):\
+<b>LAOWUSHAN (老乌山)</b>:\
 Nabu: 那布\
 Luojia: 罗家\
 Wenli: 文立
 
-TIANBASHAN (田坝山):
+<b>TIANBASHAN (田坝山)</b>:
 
 Anban town (按板镇):\
 Lianmeng: 联盟
@@ -282,7 +284,7 @@ Laohaitang: 老海塘\
 Chashanqing: 茶山箐\
 Minqiang: 民强
 
-AILAOSHAN (哀牢山):
+<b>AILAOSHAN (哀牢山)</b>:
 
 MADENG SHAN (马邓山):\
 Maide: 麦地\
@@ -300,7 +302,7 @@ images="jingdong.webp"
 titles="Jingdong county"
 %}
 
-LAOCANGFUDE SHAN (老仓福德山):
+<b>LAOCANGFUDE SHAN (老仓福德山)</b>:
 
 Anding township (安定乡):\
 Waicang: 外仓\
@@ -314,12 +316,12 @@ Bangwei: 邦崴\
 Bangmai: 邦迈\
 Yichang: 义昌
 
-MANWAN SHAN (漫湾山):\
+<b>MANWAN SHAN (漫湾山)</b>:\
 Anshao: 安召\
 Wenzhu: 温竹\
 Manwan: 漫湾
 
-JINDING SHAN (金鼎山):
+<b>JINDING SHAN (金鼎山)</b>:
 
 Linjie township (林街乡):\
 Qinghe: 清河\
@@ -334,7 +336,7 @@ Jinjilin: 金鸡林\
 Chahe: 岔河\
 Mengling: 勐令
 
-YUBI SHAN (御笔山):
+<b>YUBI SHAN (御笔山)</b>:
 
 Jinping town (锦屏镇):\
 Shanchong: 山冲\
@@ -347,7 +349,7 @@ Changdi shan (长地山):\
 Shanxin: 山心\
 Bingbi: 丙必
 
-AILAOSHAN (哀牢山):
+<b>AILAOSHAN (哀牢山)</b>:
 
 Longjie township (龙街乡):\
 Heshao: 和哨\

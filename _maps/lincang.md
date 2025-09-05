@@ -19,8 +19,6 @@ images="counties.webp,lincang.webp"
 titles="Counties,Lincang (original <a href='http://www.puercn.com/puerchazs/peczs/23826.html'>map</a>)"
 %}
 
-<br/>
-
 <h3 class="red">SHUANGJIANG (双江县) :</h3>
 
 <h4>MENGKU (勐库镇) :</h4>
@@ -34,14 +32,14 @@ titles="Mengku (<a href='https://bannablogtea.blogspot.com/2012/04/mengku-tea-ma
 links="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvPA4aOHwL6-A4rs7mfOU-43LuJTiHVgqA-28cDj6fsqIRcVvcQM4ro_Dc2o3pqdbXBU9ZQ8TeR_0IDtmODD3rF-9xMOq5996Z_da3QXd_9v2RNULA7vp1huCSQFofoIIphV-3FPt3sh_f/s1600/mengku+map.png"
 %}
 
-<b>BINGDAO (冰岛) :</b>\
+BINGDAO (冰岛) :\
 Bingdao: 冰岛\
 Nanpo: 南迫\
 Bawai: 坝歪\
 Dijie: 地界\
 Nuowu: 糯伍
 
-<b>XIBANSHAN (西半山) :</b>\
+XIBANSHAN (西半山) :\
 Gongnong: 公弄\
 Xiaohusai: 小户赛\
 Zhonghusai/Doufuzhai:中户赛/豆腐寨\
@@ -61,7 +59,7 @@ Mangbo: 忙波\
 Daxueshan: 大雪山\
 Huilongzhai: 回笼寨
 
-<b>DONGBANSHAN (东半山) :</b>\
+DONGBANSHAN (东半山) :\
 Haigong: 亥公\
 Donglong: 东弄\
 Nasai: 那赛\

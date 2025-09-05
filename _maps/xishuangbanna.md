@@ -16,6 +16,7 @@ tags: [maps, xishuangbanna]
 ---
 
 <br/>
+
 <!-- GALLERY -->
 {% include gallery.html 
 folder="xishuangbanna/" 
@@ -28,7 +29,6 @@ links=",,,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJX2GjbUDyN
 <h3 class="red">MENGLA COUNTY (勐腊县) :</h3>
 
 <h4>YIWU/MANSA (易武/慢撒) :</h4>
-
 Yibi : 易比\
 Sanheshezhai: 三合社寨\
 Yitian: 易田\
@@ -49,7 +49,7 @@ Lengshuihe: 冷水河\
 Zhichanghe: 纸厂河\
 Sadaihe: 撒袋河
 
-<b>WANGONG (弯弓):</b>\
+WANGONG (弯弓):\
 Wangongzhai: 弯弓寨\
 Bohetang: 薄荷塘\
 Yishanmo: 一扇磨\
@@ -59,7 +59,7 @@ Paxihe: 帕溪河\
 Langtian shangzhai: 浪田上寨\
 Langtian xiazhai: 浪田下寨
 
-<b>GUAFENGZHAI (刮风寨):</b>\
+GUAFENGZHAI (刮风寨):\
 Baichayuan: 白茶园\
 Baishahe: 白沙河\
 Chawangshu: 茶王树\
@@ -125,7 +125,6 @@ Jiangxiwan: 江西湾\
 Mangzhidazhai: 莽枝大寨\
 Dongjiazhai: 董家寨
 
-<br/>
 <h3 class="red">JINGHONG COUNTY (景洪县) :</h3>
 
 <b>YOULE (攸乐) :</b> (Jinuo township 基诺乡)\
@@ -161,7 +160,6 @@ Manmai: 曼卖
 
 <b>MANSAN : 曼伞</b>
 
-<br/>
 <h3 class="red">MENGHAI COUNTY (勐海县) :</h3>
 
 <b>BULANGSHAN (布朗山) :</b> (Bulangshan township 布朗山乡)\

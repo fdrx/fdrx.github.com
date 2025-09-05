@@ -11,7 +11,7 @@ year: 2012
 regions: []
 counties: []
 areas: []
-subareas: []
+subareas: [Jinggu]
 villages: []
 image: 
   - 2025-08-31-jinggu-mini/1.webp
@@ -19,18 +19,13 @@ image:
 tags: [puerh, sheng, dayi]
 ---
 
-Back in 2011 or 2012 i got that 100g mini beeng full of tips, but i'm not able to remember if i payed for it on a Taobao site I have ordered a few time, and selling lots of white labels, or if it was a gift from a tea marchant that was selling old puerh, from malaysia I guess, but i don't remember his name. 
-At that time I know i trid the gifted mini beeng and thought it was rather terrible, it was a bit like making tea with straw. Was it the same? I believe it's more a teaI bought given the following:
-The tea has obviously aged: after the rince the wet leaves are a bit smoky but let go some realistic leather aromas.
-Quickly the leather will leave and it's going to be smocky and minty on the gaiwan lid. 
-In the mouth it is a little astringent since the start, just a simple touch of honey at the beginning, then a bit of bitterness, but the common thread during the session is a nice note of vinegar that stays in the cavity and in the throat and evolutionates into a minty vinager aftertaste, this is quite pleasant. It's a bit the sort of thing we can find in some Lincang puerhs (mangfei, xigui,...)
-After a few brews some rather strong tobacco flavor arrives and the aftertaste continue to bloom quite well in the mouth and in the throat.
-I'm a bit suprised i really thought it was crap.
-The tea can be pushed wihtout any issue, it does not make it too strong or too astringent, that's a good point.
-Later brews have some xiaguan medecinal notes, it's pretty dynamic and changing, only the vinager note and the astringency remain.
-I thought It would not be a great moment with that tea but i eventually could not do anything but focus on the session. The little astringency is a bit borring but apart from that that's rather good.
-later brews are smoky with fading minty vinager, not great
-Good surprise! I think it's a 2011 junggu then, probably not a gift, i'll try to find the other mini beeng, and compare to it.
+Back in 2011 or 2012, I got that 100g mini beeng with lots of tea buds, but I can’t recall if I paid for it on a Taobao site I ordered from a few times, selling lots of white labels, or if it was a gift from a tea merchant, possibly from Malaysia, whose name I’ve forgotten. At that time, I know I tried the gifted mini beeng and thought it was pretty bad, like brewing tea with straw. Was it the same? I believe it’s more likely a tea I bought, given the following.
+
+The tea has aged: after the rinse, the wet leaves are slightly smoky but release a realistic leather aroma. The leather note fades quickly, leaving smoky and minty aromas on the gaiwan lid. In the mouth, it’s a bit astringent from the start, with just a touch of honey at first, then some bitterness, but the common thread during the session is a pleasant vinegar note that lingers on the palate and in the throat, evolving into a minty vinegar aftertaste. It’s quite enjoyable, it reminds me of some Lincang puerhs (Mangfei, Xigui). 
+
+After a few brews, a rather strong tobacco flavor emerges, and the aftertaste continues to bloom nicely in the mouth and throat. I’m surprised! The tea can be pushed without any issue; it doesn’t become too strong or overly astringent, which is a plus. Later brews bring some Xiaguan medicinal notes; it’s pretty dynamic and evolving, with only the vinegar note and astringency persisting. 
+
+I thought it wouldn’t be an enjoyable session, but I ended up fully focused on the tea. The slight astringency is a bit bothersome, but overall, it’s rather good. Later brews are smoky with fading minty vinegar, less impressive. It was a rather good surprise! I think it’s a 2011 Jinggu, probably not a gift. I’ll try to find the other mini beeng to compare it with.
 
 ![{{ page.title }}]({{ site.img_path }}{{ page.image[0] }})
 

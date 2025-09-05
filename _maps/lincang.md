@@ -25,6 +25,7 @@ titles="Counties,Lincang (original <a href='http://www.puercn.com/puerchazs/pecz
 
 <!-- MENGKU MAP -->
 {% include gallery.html 
+path="maps_path"
 folder="lincang/" 
 thumbs_folder="lincang/" 
 images="mengku.webp" 

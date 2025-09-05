@@ -3,17 +3,18 @@
   {% assign image_list = include.images | split: "," %}
   {% assign title_list = include.titles | split: "," %}
   {% assign link_list = include.links | split: "," %}
-  {% assign folder = site.maps_path | append: include.folder %}
+  {% assign base_path = include.path | default: 'maps_path' %}
+  {% assign folder = include.folder | prepend: '/' | prepend: site[base_path] | default: site[base_path] %}
   {% assign thumbs_folder = include.thumbs_folder | default: include.folder %}
-  {% assign thumbs_folder = site.thumbs_path | append: thumbs_folder %}
+  {% assign thumbs_folder = thumbs_folder | prepend: '/' | prepend: site.thumbs_path | default: site.thumbs_path %}
 
   {% if image_list.size == title_list.size and (include.links == nil or image_list.size == link_list.size) %}
     {% for i in (0..image_list.size) offset:1 %}
       {% assign index = forloop.index0 %}
       {% assign link = link_list[index] | strip %}
       <li>
-        <a href="{% if link != '' %}{{ link }}{% else %}#{% endif %}" {% if link == '' %}class="popup-trigger" data-popup="{{ folder }}{{ image_list[index] | strip }}"{% endif %} title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
-          <img src="{{ thumbs_folder }}{{ image_list[index] | strip }}" alt="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}" />
+        <a href="{% if link != '' %}{{ link }}{% else %}#{% endif %}" {% if link == '' %}class="popup-trigger" data-popup="{{ folder }}/{{ image_list[index] | strip }}"{% endif %} title="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}">
+          <img src="{{ thumbs_folder }}/{{ image_list[index] | strip }}" alt="{{ title_list[index] | strip | replace: '<a', '' | replace: '</a>', '' | replace: 'href=\"', '' | replace: '\"', '' }}" />
         </a>
         <div class="title">{{ title_list[index] | raw }}</div>
       </li>

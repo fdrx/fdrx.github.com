@@ -12,6 +12,7 @@ css_path: "/assets/css/"
 ico_path: "/assets/ico/"
 img_path: "/assets/img/posts/"
 maps_path: "/assets/img/maps/"
+about_path: "/assets/img/about/"
 thumbs_path: "/assets/img/thumbs/"
 collections:
   maps:

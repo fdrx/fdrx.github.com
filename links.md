@@ -4,6 +4,13 @@ title: Links
 permalink: /links/
 ---
 
+<style>
+ul li a {
+    color: var(--fdrx-dark);
+    text-decoration: underline;
+}
+</style>
+
 # Some links
 
 <div class="links-container">

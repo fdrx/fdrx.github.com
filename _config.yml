@@ -1,13 +1,13 @@
 title: fdrx puerh notes
-email: fdrx-puerh@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fdrx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fdrx
+email: 
+description: "fdrx Puerh tea notes, reviews, maps, and guides to puerh tea regions, areas and villages."
+keywords: ["puerh tea", "puerh reviews", "puerh maps", "puerh villages", "tea regions", "tea notes", "fdrx"]
+baseurl: ""
+url: "https://fdrx.github.io/"
+author: "fdrx"
 github_username:  fdrx
+twitter_username: 
+og_image: "/assets/img/site/default-og-image.jpg"
 css_path: "/assets/css/"
 ico_path: "/assets/ico/"
 img_path: "/assets/img/posts/"
@@ -18,12 +18,10 @@ collections:
   maps:
     output: true
     permalink: /maps/:title
-
 # Build settings
 theme: null
 plugins:
   - jekyll-feed
-
 defaults:
   -
     scope:
@@ -33,3 +31,5 @@ defaults:
       layout: post
       category: sheng
       shape: beeng
+feed:
+  email: false

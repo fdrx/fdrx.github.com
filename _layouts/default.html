@@ -2,14 +2,41 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | fdrx</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }} | fdrx</title>
+  
+  <!-- SEO -->
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="keywords" content="{{ page.keywords | default: site.keywords | join: ', ' | escape }}">
+  <meta name="author" content="{{ page.author | default: site.author | escape }}">
+  <meta name="robots" content="{{ page.robots | default: 'index, follow' }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:type" content="{{ page.og_type | default: 'website' }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.image | default: site.og_image }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image | default: site.og_image }}">
+  {% if site.twitter_username %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  {% endif %}
+
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="{{ site.ico_path }}/favicon.ico">
   <link rel="icon" type="image/png" href="{{ site.ico_path }}/favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="{{ site.ico_path }}/favicon-32x32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="{{ site.ico_path }}/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="{{ site.ico_path }}/android-chrome-192x192.png" sizes="192x192">
-  <!-- Css -->
+
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ site.css_path }}/default.css">
   <link rel="stylesheet" href="{{ site.css_path }}/home.css">
   <link rel="stylesheet" href="{{ site.css_path }}/head.css">
@@ -18,7 +45,6 @@
   <link rel="stylesheet" href="{{ site.css_path }}/gallery.css">
 </head>
 <body>
-
   {% include head.html %}
   {% include menu.html %}
 
@@ -27,6 +53,5 @@
   </main>
 
   {% include footer.html %}
-
 </body>
 </html>

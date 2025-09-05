@@ -15,6 +15,7 @@ image:
 tags: [maps, xishuangbanna]
 ---
 
+<br/>
 <!-- GALLERY -->
 {% include gallery.html 
 folder="xishuangbanna/" 
@@ -124,6 +125,7 @@ Jiangxiwan: 江西湾\
 Mangzhidazhai: 莽枝大寨\
 Dongjiazhai: 董家寨
 
+<br/>
 <h3 class="red">JINGHONG COUNTY (景洪县) :</h3>
 
 <b>YOULE (攸乐) :</b> (Jinuo township 基诺乡)\
@@ -159,6 +161,7 @@ Manmai: 曼卖
 
 <b>MANSAN : 曼伞</b>
 
+<br/>
 <h3 class="red">MENGHAI COUNTY (勐海县) :</h3>
 
 <b>BULANGSHAN (布朗山) :</b> (Bulangshan township 布朗山乡)\

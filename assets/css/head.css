@@ -8,3 +8,9 @@
 .banner a {
     color: #242424;
 }
+
+@media (max-width: 768px) {
+  .banner {
+    margin: 20px auto;
+  }
+}

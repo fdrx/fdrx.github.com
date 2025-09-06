@@ -17,7 +17,7 @@ tags: [puerh, sheng, huishenghao]
 ---
 Like drinking puerh with sugar for the first 3 brews. Too sweet.
 Velvet puerh in the mouth, and you can brew it too much, it will remain good and clean.
-Penetrating relaxing Qi, makes me keep the mouth closed
+Penetrating relaxing Qi, makes me keep the mouth closed.
 Taidi teas can produce the same effects but along with agressivity, here it's pure and rounded.
 Dies pretty fast though.
 

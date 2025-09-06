@@ -27,7 +27,7 @@ center=true
 </p>
 
 <p>
-    Between 2009 and 2013 I became passionate about puerh and wanted to taste all the different puerh terroirs and learn about them, so I started to sample all the tea I could and made maps and lists of puerh areas on <a href="https://www.teachat.com/viewtopic.php?t=17948" target="_blank" rel="noopener noreferrer nofollow">TeaChat</a>. 
+    Between 2009 and 2013 I became passionate about puerh and wanted to taste all the puerh terroirs and learn about them, so I started to sample all the tea I could and made maps and lists of puerh areas on <a href="https://www.teachat.com/viewtopic.php?t=17948" target="_blank" rel="noopener noreferrer nofollow">TeaChat</a>. 
 </p>
 
 <!-- SAMPLING PUERH -->
@@ -41,7 +41,7 @@ center=true
 %}
 
 <p>
-    Living in a coffee-rich area, I've slept in the coffee beans bed for years, now I’m revisiting my beengs.
+    Living in a coffee-rich area, I've slept in the coffee beans bed for years, now I’m revisiting my beengs!
 </p>
 
 <p>

@@ -1,5 +1,5 @@
 ---
-title: Jiggu Gifted 100g
+title: Jiggu 100g
 subtitle: 
 date: 2025-08-31
 category: sheng

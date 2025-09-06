@@ -1,20 +1,26 @@
 
 .disclaimer {
-    padding: 4px 8px;
-    margin: 20px 0;
-    background-color: var(--fdrx-red);
-    text-align: justify;
+  padding: 4px 8px;
+  margin: 20px 0;
+  background-color: var(--fdrx-red);
+  text-align: justify;
 }
 
 .disclaimer,
 .disclaimer a {
-    font-size: 14px;
-    color: var(--fdrx-white);
+  font-size: 14px;
+  color: var(--fdrx-white);
 }
 
 .disclaimer a {
-    font-size: 14px;
     text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .disclaimer,
+  .disclaimer a {
+    font-size: 12px;
+  }
 }
 
 .main-container {
@@ -44,7 +50,6 @@
   line-height: 38px;
   color: var(--fdrx-white);
 }
-
 
 .main-text a p {
   font: var(--font-h4);

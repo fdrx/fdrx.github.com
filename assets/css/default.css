@@ -6,10 +6,6 @@
     --fdrx-red: #ff5f58;
     --fdrx-red-dark: #c62626;
     --fdrx-white: #ffffff;
-    --fdrx-gray: #ededf0;
-    --fdrx-gray-light: #f4f4f6;
-    --fdrx-gray-dark: #d9d9d9;
-    --fdrx-gray-darker: #696969;
 
     --font-family-1: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-2: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -23,7 +19,6 @@
     --font-link: 400 20px / normal var(--font-family-2);
     --font-legend: 600 12px / normal var(--font-family-1);
     --font-small: 600 11px / normal var(--font-family-1);
-
 }
 
 html, body {
@@ -161,4 +156,36 @@ img.thumb:hover {
   .links-container {
     grid-template-columns: 1fr;
   }
+}
+
+/* CHECKBOXES */
+#filter-form input[type="checkbox"] {
+  appearance: none;
+   width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#filter-form input[type="checkbox"]:checked {
+  background-color: var(--fdrx-dark);
+  border-color: var(--fdrx-dark);
+}
+
+#filter-form input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  display: block;
+  margin-top: -2px;
+}
+
+#filter-form label {
+  margin-right: 15px;
+  user-select: none;
 }

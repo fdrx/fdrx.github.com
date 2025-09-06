@@ -23,7 +23,7 @@ center=true
 %}
 
 <p>
-    In 2007, my grandmother passed away, a few months later my grandfather as well, and in 2009, on a wild whim, knowing absolutely nothing about it, I started collecting puerh tea, about which I knew nothing, and built a rather decent collection without making any connection to that childhood experience.
+    In 2007, my grandmother passed away, a few months later my grandfather as well, and in 2009, on a wild whim, knowing absolutely nothing about it, I started collecting puerh tea and built a rather decent collection without making any connection to that childhood experience.
 </p>
 
 <p>
@@ -49,5 +49,5 @@ center=true
 </p>
 
 <p>
-    <small>This site’s built with open-source tools: GitHub Pages, Jekyll, and GoatCounter.<br/> Its design takes some inspiration from Medium’s clean aesthetic.</small>
+    <small>(This site’s built with open-source tools: GitHub Pages, Jekyll, and GoatCounter.<br/> Its design takes some inspiration from Medium’s clean aesthetic)</small>
 </p>

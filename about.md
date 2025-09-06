@@ -36,7 +36,7 @@ path="about_path"
 folder="" 
 thumbs_folder="about/" 
 images="2.webp" 
-titles="Hardcore pu sampling - circa 2012"
+titles="Pu sampling circa 2012"
 center=true
 %}
 

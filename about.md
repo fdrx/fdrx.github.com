@@ -49,5 +49,5 @@ center=true
 </p>
 
 <p>
-    <small>(This site’s built with open-source tools: GitHub Pages, Jekyll, and GoatCounter.<br/> Its design takes some inspiration from Medium’s clean aesthetic)</small>
+    <small>(This site’s built with open-source tools: GitHub Pages, Jekyll, and GoatCounter. Its design takes some inspiration from Medium’s clean aesthetic)</small>
 </p>

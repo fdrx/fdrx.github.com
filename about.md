@@ -41,7 +41,7 @@ center=true
 %}
 
 <p>
-    Living in a coffee-rich area, I've slept in the coffee beans bed for years, now I’m ready to revisit my beengs.
+    Living in a coffee-rich area, I've slept in the coffee beans bed for years, now I’m revisiting my beengs.
 </p>
 
 <p>

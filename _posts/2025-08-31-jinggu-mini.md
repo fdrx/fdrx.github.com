@@ -1,5 +1,5 @@
 ---
-title: Jiggu 100g
+title: Jinggu 100g
 subtitle: 
 date: 2025-08-31
 category: sheng

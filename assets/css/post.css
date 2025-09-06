@@ -3,6 +3,12 @@
   justify-content: center;
 }
 
+@media (max-width: 700px) {
+  .wrapper {
+    padding-left: 10px;
+  }
+}
+
 article.post {
   width: 100%;
   max-width: 680px;
@@ -50,5 +56,6 @@ header p.date {
 }
 
 .content img {
+  width: 100%;
   max-width: 680px;
 }

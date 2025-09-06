@@ -152,6 +152,13 @@ img.thumb:hover {
   text-align: left;
 }
 
+
+@media (max-width: 1200px) {
+  .links-container {
+    padding-left: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .links-container {
     grid-template-columns: 1fr;

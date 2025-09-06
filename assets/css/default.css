@@ -83,7 +83,8 @@ h5 {
 
 .dark-cell {
   background-color: var(--fdrx-dark);
-  color: white;
+  color: var(--fdrx-white);
+  padding-left: 4px;
 }
 
 h3.red,

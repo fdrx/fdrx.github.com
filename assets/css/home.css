@@ -119,6 +119,14 @@ section article p.date {
   .last-post .text-content {
     width: 100%;
   }
+
+  .last-post h2,
+  .last-post p,
+  section article h2,
+  section article h3,
+  section article p{
+    padding: 0 8px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -128,5 +136,13 @@ section article p.date {
 
   .last-post h2 {
     font-size: 1.6rem;
+  }
+
+  .last-post h2,
+  .last-post p,
+  section article h2,
+  section article h3,
+  section article p{
+    padding: 0 4px;
   }
 }

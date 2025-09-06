@@ -23,11 +23,11 @@ center=true
 %}
 
 <p>
-    In 2007, my grandmother passed away, a few months later my grandfather as well, and in 2009, on a wild whim, knowing absolutely nothing about it, I started collecting puerh tea and built a rather decent collection without making any connection to that childhood experience.
+    In 2007, my grandmother passed away, a few months later my grandfather as well, and in 2009, on a wild whim, I started exploring puerh tea without making any connection to that childhood experience.
 </p>
 
 <p>
-    Between 2009 and 2013 I became obsessed with puerh and I wanted to taste and understand everything about it, so I started to sample all the tea I could and made maps and lists of puerh areas on <a href="https://www.teachat.com/viewtopic.php?t=17948" target="_blank" rel="noopener noreferrer nofollow">TeaChat</a>. I did not know anything about Chinese, but I got passionate about that activity for some time. I'm sure it helped others too, despite likely some mistakes and omissions. 
+    Between 2009 and 2013 I became passionate about puerh and wanted to taste all the different puerh terroirs and learn about them, so I started to sample all the tea I could and made maps and lists of puerh areas on <a href="https://www.teachat.com/viewtopic.php?t=17948" target="_blank" rel="noopener noreferrer nofollow">TeaChat</a>. 
 </p>
 
 <!-- SAMPLING PUERH -->
@@ -41,11 +41,7 @@ center=true
 %}
 
 <p>
-    Living in a paradise for coffee beans, I cheated on my puerh affair and slept in the coffee bed for years, but now it's time to revisit my beengs!
-</p>
-
-<p>
-    fdrx.
+    Living in a coffee-rich area, I've slept in the coffee beans bed for years, now I’m ready to revisit my beengs.
 </p>
 
 <p>

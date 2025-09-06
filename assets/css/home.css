@@ -98,6 +98,16 @@ section article p.date {
   font-size: 0.8rem;
 }
 
+@media (max-width: 1200px) {
+  .last-post h2,
+  .last-post p,
+  section article h2,
+  section article h3,
+  section article p{
+    padding-left: 4px;
+  }
+}
+
 @media (max-width: 900px) {
   section {
     grid-template-columns: repeat(2, 1fr);
@@ -113,14 +123,6 @@ section article p.date {
 
   .last-post .text-content {
     width: 100%;
-  }
-
-  .last-post h2,
-  .last-post p,
-  section article h2,
-  section article h3,
-  section article p{
-    padding: 0 8px;
   }
 }
 
@@ -139,13 +141,5 @@ section article p.date {
 
   .last-post h2 {
     font-size: 1.6rem;
-  }
-
-  .last-post h2,
-  .last-post p,
-  section article h2,
-  section article h3,
-  section article p{
-    padding: 0 4px;
   }
 }

@@ -167,10 +167,10 @@ img.thumb:hover {
 }
 
 @media (max-width: 680px) {
-  h1 {
+  /* h1 {
     margin-left: 5px;
     margin-right: 5px;
-  }
+  } */
   .dark-cell {
     margin-left: 5px;
     margin-right: 5px;

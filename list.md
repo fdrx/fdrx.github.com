@@ -5,12 +5,12 @@ permalink: /list/
 ---
 # List of Puerh Teas
 
-<form id="filter-form">
+<form class="filter-form">
   <label><input type="checkbox" name="sheng" value="sheng" checked> Sheng</label>
   <label><input type="checkbox" name="shu" value="shu" checked> Shu</label>
 </form>
 
-<div id="post-list">
+<div>
   {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
   {% for year_group in posts_by_year %}
     <br>

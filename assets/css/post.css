@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
 }
-
+/* 
 @media (max-width: 700px) {
   .wrapper {
     padding-left: 5px;
   }
-}
+} */
 
 article.post {
   width: 100%;

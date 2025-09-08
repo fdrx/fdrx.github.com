@@ -35,3 +35,5 @@ defaults:
       shape: beeng
 feed:
   email: false
+sitemap:
+  lastmod: true

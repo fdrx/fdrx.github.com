@@ -169,7 +169,7 @@ Manmai: 曼卖
 folder="xishuangbanna/" 
 thumbs_folder="xishuangbanna/" 
 images="bulang.webp" 
-titles="Bulang shan"
+titles="Bulang shan area (ZhiMingDu)"
 %}
 
 Laobanzhang: 老班章 (Banzhang)\

@@ -36,7 +36,9 @@
 }
 
 .main-nav li img {
+  position: relative;
   vertical-align: middle;
+  top: -2px;
   cursor: pointer;
 }
 

@@ -35,6 +35,11 @@
   font-weight: bold;
 }
 
+.main-nav li img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .main-nav ul {

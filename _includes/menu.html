@@ -6,5 +6,11 @@
     <!-- <li><a href="{{ '/collection/' | relative_url }}" {% if page.url == '/collection/' %}class="active"{% endif %}>Collection</a></li> -->
     <li><a href="{{ '/links/' | relative_url }}" {% if page.url == '/links/' %}class="active"{% endif %}>Links</a></li>
     <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+    <!-- RSS -->
+    <li>
+      <a href="{{ site.url }}/feed.xml" aria-label="S'abonner au flux RSS" class="rss-link">
+      <img src="{{ site.site_path }}/rss.png" alt="RSS" width="16" height="16">
+    </a>
+    </li>
   </ul>
 </nav>

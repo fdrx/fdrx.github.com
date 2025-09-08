@@ -10,6 +10,7 @@ twitter_username:
 og_image: "/assets/img/site/default-og-image.jpg"
 css_path: "/assets/css/"
 ico_path: "/assets/ico/"
+site_path: "/assets/img/site/"
 img_path: "/assets/img/posts/"
 maps_path: "/assets/img/maps/"
 about_path: "/assets/img/about/"

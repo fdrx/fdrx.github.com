@@ -20,8 +20,8 @@ pagination:
       </div>
       <div class="right">
         <a href="{{ last.url | relative_url }}">
-          <h2>{{ last.title | default: "No title" }}</h2>
-          <p>{{ last.subtitle | default: "No subtitle" }}</p>
+          <h2>{{ last.title | default: "" }}</h2>
+          <p>{{ last.subtitle | default: "" }}</p>
           <p class="date">{{ last.date | date: "%d %B %Y" | default: "No date" }}</p>
         </a>
       </div>
@@ -45,8 +45,8 @@ pagination:
             {% else %}
               <img src="{{ site.thumbs_path }}default.webp" class="thumbnail">
             {% endif %}
-            <h2>{{ post.title | default: "No title" }}</h2>
-            <p>{{ post.subtitle | default: "No subtitle" }}</p>
+            <h2>{{ post.title | default: "" }}</h2>
+            <p>{{ post.subtitle | default: "" }}</p>
             <p class="date">{{ post.date | date: "%d %B %Y" | default: "No date" }}</p>
           </a>
         </article>
@@ -63,8 +63,8 @@ pagination:
             {% else %}
               <img src="{{ site.thumbs_path }}default.webp" class="thumbnail">
             {% endif %}
-            <h2>{{ post.title | default: "No title" }}</h2>
-            <p>{{ post.subtitle | default: "No subtitle" }}</p>
+            <h2>{{ post.title | default: "" }}</h2>
+            <p>{{ post.subtitle | default: "" }}</p>
             <p class="date">{{ post.date | date: "%d %B %Y" | default: "No date" }}</p>
           </a>
         </article>

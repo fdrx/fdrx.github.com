@@ -14,17 +14,6 @@ ul li a {
 # Some links
 
 <div class="links-container">
-  <div class="link-section">
-    <h3>Blogs</h3>
-    <ul class="links">
-      <li><a href="https://www.puerh-blog.com/" target="_blank" rel="noopener noreferrer nofollow">Teadb</a></li>
-      <li><a href="https://teadb.org/" target="_blank" rel="noopener noreferrer nofollow">Puerh-Blog</a></li>
-      <li><a href="https://teamasters.blogspot.com/" target="_blank" rel="noopener noreferrer nofollow">Tea Masters Blog</a></li>
-      <li><a href="https://mattchasblog.blogspot.com/" target="_blank" rel="noopener noreferrer nofollow">MattCha's Blog</a></li>
-      <li><a href="https://teaintheancientworld.blogspot.com/" target="_blank" rel="noopener noreferrer nofollow">Tea in the ancient world</a></li>
-      <li><a href="https://half-dipper.blogspot.com/" target="_blank" rel="noopener noreferrer nofollow">Half-Dipper</a></li>
-    </ul>
-  </div>
 
   <div class="link-section">
     <h3>Forums</h3>
@@ -39,6 +28,7 @@ ul li a {
   <div class="link-section">
     <h3>Misc</h3>
     <ul class="links">
+      <li><a href="https://teadb.org/" target="_blank" rel="noopener noreferrer nofollow">Teadb</a></li>
       <li><a href="https://babelcarp.org/babelcarp/" target="_blank" rel="noopener noreferrer nofollow">Babelcarp: a Chinese Tea Lexicon</a></li>
     </ul>
   </div>

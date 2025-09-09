@@ -179,6 +179,7 @@ img.thumb:hover {
 }
 
 /* CHECKBOXES */
+
 #filter-form input[type="checkbox"] {
   appearance: none;
   width: 16px;
@@ -214,4 +215,36 @@ img.thumb:hover {
   #filter-form {
     margin-left: 5px;
   }
+}
+
+/* PAGINATION */
+
+.pagination {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.pagination a, .pagination span {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination .current {
+  background-color: var(--fdrx-dark);
+  color: white;
+  border-color: var(--fdrx-dark);
+}
+
+.pagination .disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination a:hover:not(.disabled) {
+  background-color: #f8f9fa;
 }

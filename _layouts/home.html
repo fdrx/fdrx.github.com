@@ -1,45 +1,116 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 
 <!-- display last post -->
- {% assign last = site.posts.first %}
-<div class="last-post">
-
-    <div class="left">
-      <a href="{{ last.url | relative_url }}">
-        {% if last.image[0] %}
-          <img src="{{ site.img_path }}{{ last.image[0] }}" alt="{{ last.title }}">
+{% if paginator.page == 1 %}
+  {% assign last = site.posts.first %}
+  {% if last %}
+    <div class="last-post">
+      <div class="left">
+        <a href="{{ last.url | relative_url }}">
+          {% if last.image[0] %}
+            <img src="{{ site.img_path }}{{ last.image[0] }}" alt="{{ last.title }}">
           {% elsif last.image %}
-          <img src="{{ site.img_path }}{{ last.image }}" alt="{{ last.title }}">
-        {% endif %}
-      </a>
+            <img src="{{ site.img_path }}{{ last.image }}" alt="{{ last.title }}">
+          {% endif %}
+        </a>
+      </div>
+      <div class="right">
+        <a href="{{ last.url | relative_url }}">
+          <h2>{{ last.title | default: "No title" }}</h2>
+          <p>{{ last.subtitle | default: "No subtitle" }}</p>
+          <p class="date">{{ last.date | date: "%d %B %Y" | default: "No date" }}</p>
+        </a>
+      </div>
     </div>
+  {% else %}
+    <p><strong>No last post found!</strong></p>
+  {% endif %}
+{% endif %}
 
-    <div class="right">
-      <a href="{{ last.url | relative_url }}">
-          <h2>{{ last.title }}</h2>
-          <p>{{ last.subtitle }}</p>
-          <p class="date">{{ last.date | date: "%d %B %Y" }}</p>
-      </a>
-    </div>
-
-</div>
-
-<!-- display others last 9 posts -->
+<!-- display paginated posts -->
 <section>
-  {% for post in site.posts offset:1 limit:9 %}
-    <article>
-      <a href="{{ post.url | relative_url }}">
-        {% if post.image[0] %}
-          <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
-        {% elsif post.image %}
-          <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
-        {% endif %}
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.subtitle }}</p>
-        <p class="date">{{ post.date | date: "%d %B %Y" }}</p>
-      </a>
-    </article>
-  {% endfor %}
+  {% if paginator.posts.size > 0 %}
+    {% if paginator.page == 1 %}
+      {% for post in site.posts offset:1 limit:9 %}
+        <article>
+          <a href="{{ post.url | relative_url }}">
+            {% if post.image[0] %}
+              <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
+            {% elsif post.image %}
+              <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
+            {% else %}
+              <img src="{{ site.thumbs_path }}default.webp" class="thumbnail">
+            {% endif %}
+            <h2>{{ post.title | default: "No title" }}</h2>
+            <p>{{ post.subtitle | default: "No subtitle" }}</p>
+            <p class="date">{{ post.date | date: "%d %B %Y" | default: "No date" }}</p>
+          </a>
+        </article>
+      {% endfor %}
+    {% else %}
+      {% assign offset = paginator.page | minus: 2 | times: 9 | plus: 10 %}
+      {% for post in site.posts offset:offset limit:9 %}
+        <article>
+          <a href="{{ post.url | relative_url }}">
+            {% if post.image[0] %}
+              <img src="{{ site.img_path }}{{ post.image[0] }}" alt="{{ post.title }}" class="thumbnail">
+            {% elsif post.image %}
+              <img src="{{ site.img_path }}{{ post.image }}" alt="{{ post.title }}" class="thumbnail">
+            {% else %}
+              <img src="{{ site.thumbs_path }}default.webp" class="thumbnail">
+            {% endif %}
+            <h2>{{ post.title | default: "No title" }}</h2>
+            <p>{{ post.subtitle | default: "No subtitle" }}</p>
+            <p class="date">{{ post.date | date: "%d %B %Y" | default: "No date" }}</p>
+          </a>
+        </article>
+      {% endfor %}
+    {% endif %}
+  {% else %}
+    <p><strong>No posts found in paginator.posts!</strong></p>
+  {% endif %}
 </section>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">←</a>
+    {% else %}
+      <span class="prev disabled">←</span>
+    {% endif %}
+
+    {% assign max_pages = 3 %}
+    {% assign half_range = 1 %}
+    {% assign start_page = paginator.page | minus: half_range | at_least: 1 %}
+    {% assign end_page = paginator.page | plus: half_range | at_most: paginator.total_pages %}
+    {% assign page_range = end_page | minus: start_page | plus: 1 %}
+    {% if page_range < max_pages %}
+      {% if paginator.page <= half_range %}
+        {% assign end_page = max_pages | at_most: paginator.total_pages %}
+      {% else %}
+        {% assign start_page = paginator.total_pages | minus: max_pages | plus: 1 %}
+        {% assign end_page = paginator.total_pages %}
+      {% endif %}
+    {% endif %}
+    {% for page in (start_page..end_page) %}
+      {% if page == paginator.page %}
+        <span class="current">{{ page }}</span>
+      {% else %}
+        <a href="{% if page == 1 %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/page/{{ page }}/{% endif %}" class="page">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">→</a>
+    {% else %}
+      <span class="next disabled">→</span>
+    {% endif %}
+  </nav>
+{% else %}
+  <p>No pagination needed (total_pages = {{ paginator.total_pages }})</p>
+{% endif %}

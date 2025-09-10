@@ -1,6 +1,6 @@
 ---
 layout: default
-title: List of teas
+title: List of posts
 permalink: /list/
 ---
 # List of Puerh Teas

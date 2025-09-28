@@ -53,3 +53,13 @@ header p.date {
   width: 100%;
   max-width: 680px;
 }
+
+@media (max-width: 600px) {
+  header.post h1 {
+    font: var(--font-h2);
+  }
+
+  header.post h3 {
+    font: var(--font-h4);
+  }
+}

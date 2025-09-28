@@ -20,8 +20,7 @@
 .main-nav a {
   color: var(--fdrx-darker);
   text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font: var(--font-h4);
   padding: 8px 12px;
   transition: color 0.3s ease;
 }
@@ -75,7 +74,7 @@
   .main-nav ul {
     display: none;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
     background: var(--fdrx-white);
     padding: 20px 0;
     border-top: 1px solid #e0e0e0;
@@ -86,12 +85,11 @@
   }
 
   .main-nav li {
-    margin: 10px 0;
     text-align: center;
+    margin: 4px 10px;
   }
 
   .main-nav a {
-    font-size: 1rem;
     padding: 10px;
     display: block;
   }

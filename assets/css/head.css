@@ -29,7 +29,7 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 900px) {
     .banner {
         margin: 20px auto;
     }
@@ -38,5 +38,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        font: var(--font-h3);
     }
 }

@@ -43,6 +43,6 @@
 
 @media (max-width: 600px) {
     .banner {
-        font: var(--font-h3);
+        font-size: 27px;
     }
 }

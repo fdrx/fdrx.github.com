@@ -97,6 +97,6 @@
 
 @media (max-width: 600px) {
   .menu-toggle {
-    padding: 0;
+    padding: 10px 0;
   }
 }

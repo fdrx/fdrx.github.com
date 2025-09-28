@@ -94,3 +94,9 @@
     display: block;
   }
 }
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    padding: 0;
+  }
+}

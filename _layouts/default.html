@@ -43,6 +43,24 @@
   <link rel="stylesheet" href="{{ site.css_path }}/menu.css">
   <link rel="stylesheet" href="{{ site.css_path }}/footer.css">
   <link rel="stylesheet" href="{{ site.css_path }}/gallery.css">
+
+  <!-- Menu on mobile -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('.main-nav ul');
+
+      if (toggleButton && menu) {
+          toggleButton.addEventListener('click', function() {
+              menu.classList.toggle('show');
+          });
+      }
+  });
+  </script>
+
+  <!-- Goat Counter -->
+  <script data-goatcounter="https://fdrx.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 </head>
 <body>
   {% include head.html %}

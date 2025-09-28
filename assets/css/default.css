@@ -226,7 +226,7 @@ img.thumb:hover {
 
 .pagination a, .pagination span {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   margin: 0 0.2rem;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -235,9 +235,9 @@ img.thumb:hover {
 }
 
 .pagination .current {
-  background-color: var(--fdrx-dark);
+  background-color: var(--fdrx-darker);
   color: white;
-  border-color: var(--fdrx-dark);
+  border-color: var(--fdrx-darker);
 }
 
 .pagination .disabled {

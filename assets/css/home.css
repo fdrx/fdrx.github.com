@@ -32,7 +32,7 @@
 
 .last-post h2 {
   font-size: 2rem;
-  color: #333333;
+  color: var(--fdrx-darker);
   margin: 0 0 10px;
 }
 
@@ -78,7 +78,7 @@ section article a {
 
 section article h2 {
   font-size: 1.4rem;
-  color: #333333;
+  color: var(--fdrx-darker);
   margin: 0 0 8px;
 }
 

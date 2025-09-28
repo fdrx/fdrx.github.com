@@ -3,14 +3,40 @@
     font: var(--font-h2);
     font-weight: 500;
     line-height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner a {
     color: #242424;
 }
 
-@media (max-width: 768px) {
-  .banner {
-    margin: 20px auto;
-  }
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: var(--fdrx-darker);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 899px) {
+    .banner {
+        margin: 20px auto;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

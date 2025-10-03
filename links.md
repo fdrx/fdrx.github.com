@@ -30,6 +30,7 @@ ul li a {
     <ul class="links">
       <li><a href="https://teadb.org/" target="_blank" rel="noopener noreferrer nofollow">Teadb</a></li>
       <li><a href="https://babelcarp.org/babelcarp/" target="_blank" rel="noopener noreferrer nofollow">Babelcarp: a Chinese Tea Lexicon</a></li>
+      <li><a href="http://www.puerh.fr/" target="_blank" rel="noopener noreferrer nofollow">puerh.fr</a></li>
     </ul>
   </div>
 
